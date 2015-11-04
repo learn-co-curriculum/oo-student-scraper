@@ -1,0 +1,171 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://learn-co-curriculum.github.io/student-scrape-site/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Content-Type:
+      - text/html; charset=utf-8
+      Last-Modified:
+      - Wed, 04 Nov 2015 20:35:28 GMT
+      Access-Control-Allow-Origin:
+      - "*"
+      Expires:
+      - Wed, 04 Nov 2015 20:48:28 GMT
+      Cache-Control:
+      - max-age=600
+      X-Github-Request-Id:
+      - 17EB2E27:09B4:97B819C:563A6CC3
+      Content-Length:
+      - '751'
+      Accept-Ranges:
+      - none
+      Date:
+      - Wed, 04 Nov 2015 20:41:40 GMT
+      Via:
+      - 1.1 varnish
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Served-By:
+      - cache-iad2146-IAD
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      X-Timer:
+      - S1446669700.603860,VS0,VE3
+      Vary:
+      - Accept-Encoding
+      X-Fastly-Request-Id:
+      - 40423d15284e6ceb65ff0c0c94ebe6511329eb34
+    body:
+      encoding: ASCII-8BIT
+      string: |-
+        <html>
+          <head>
+            <meta charset="utf-8"/>
+            <meta name="viewport" content="width=device-width, initial-scale=1"/>
+            <title>Learn Verified Student Roster</title>
+            <link rel="stylesheet" href="css/normalize.css"/>
+            <link rel="stylesheet" href="css/fonts.css"/>
+            <link rel="stylesheet" href="css/styles.css"/>
+          </head>
+          <body>
+            <div class="main-wrapper roster">
+              <header class="header">
+                <a href="#">
+                  <img class="learn-logo" src="assets/img/logo.png"/>
+                </a>
+              </header>
+              <div class="roster-body-wrapper">
+                <div class="roster-text-container">
+                  <h1>Every Story Has Heroes</h1>
+                  <h2>We're a group of people on a journey to learn to love code.</h2>
+                </div>
+                <div class="roster-cards-container">
+                  <div class="student-card card-1">
+                    <a href="#">
+                      <div class="view-profile-div">
+                        <h3 class="view-profile-text">View Profile</h3>
+                      </div>
+                      <div class="card-text-container">
+                        <h4 class="student-name">Alex Patriquin</h4>
+                        <p class="student-location">New York, NY</p>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="student-card card-2">
+                    <a href="#">
+                      <div class="view-profile-div">
+                        <h3 class="view-profile-text">View Profile</h3>
+                      </div>
+                      <div class="card-text-container">
+                        <h4 class="student-name">Bacon McRib</h4>
+                        <p class="student-location">Kansas City, MO</p>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="student-card card-3">
+                    <a href="#">
+                      <div class="view-profile-div">
+                        <h3 class="view-profile-text">View Profile</h3>
+                      </div>
+                      <div class="card-text-container">
+                        <h4 class="student-name">Alisha McWilliams</h4>
+                        <p class="student-location">San Francisco, CA</p>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="student-card card-4">
+                    <a href="#">
+                      <div class="view-profile-div">
+                        <h3 class="view-profile-text">View Profile</h3>
+                      </div>
+                      <div class="card-text-container">
+                        <h4 class="student-name">Daniel Fenjves</h4>
+                        <p class="student-location">Austin, TX</p>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="student-card card-5">
+                    <a href="#">
+                      <div class="view-profile-div">
+                        <h3 class="view-profile-text">View Profile</h3>
+                      </div>
+                      <div class="card-text-container">
+                        <h4 class="student-name">Arielle Sullivan</h4>
+                        <p class="student-location">Chicago, IL</p>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="student-card card-6">
+                    <a href="#">
+                      <div class="view-profile-div">
+                        <h3 class="view-profile-text">View Profile</h3>
+                      </div>
+                      <div class="card-text-container">
+                        <h4 class="student-name">Sushanth Bhaskarab</h4>
+                        <p class="student-location">Portland, OR</p>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="student-card card-7">
+                    <a href="#">
+                      <div class="view-profile-div">
+                        <h3 class="view-profile-text">View Profile</h3>
+                      </div>
+                      <div class="card-text-container">
+                        <h4 class="student-name">Sushanth Bhaskarab</h4>
+                        <p class="student-location">Portland, OR</p>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <footer class="footer">
+                <img class="made-with-love" src="assets/img/made-with-love.png"/>
+              </footer>
+            </div>
+          </body>
+        </html>
+    http_version: 
+  recorded_at: Wed, 04 Nov 2015 20:41:40 GMT
+recorded_with: VCR 3.0.0

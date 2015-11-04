@@ -88,4 +88,13 @@ This class method should return the contents of the `@@all` array.
 
 ### Our Code in Action
 
-Now that you have all your tests passing, run the executable file with `ruby bin/run`. You should see all of the students you scraped and instantiated `puts`-ed out to the terminal. 
+Now that you have all your tests passing, you can run our executable file, which relies on our `CommandLineInterface` class. 
+
+**Important:** Our test suite relies on something called stubbing to fake the web requests your code is making in the `Scraper` class. It is not important to understand this right now, just know that we need to do this in the test suite so that we can test all of you students using the same data. In order to run your code with *your real student site* instead of our fake/only-for-testing one, open up `spec/spec_helper` and comment out these two lines:
+
+```ruby
+require 'webmock/rspec'  
+WebMock.disable_net_connect!(allow_localhost: true) 
+```
+
+Now, run the executable file with `ruby bin/run`. You should see all of the students you scraped and instantiated `puts`-ed out to the terminal. Great job!

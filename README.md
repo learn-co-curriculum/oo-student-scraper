@@ -12,6 +12,8 @@ In this lab, you'll be scraping your Learn.co student webiste. You'll use the in
 
 We've given you a third class, `CommandLineInterface` That is responsible for generating students using both the `Student` and `Scraper` classes. As you go through this lab, take some time to read through the code in the `CommandLineInterface` class. Try to understand how it works and how it uses the code in our other classes to actually create, add attributes and display students to the user via the command line interface. 
 
+We've also given you an executable file in `bin/run` that you can execute once you get your tests passing to see you code in action!
+
 ## Instructions
 
 ### The `Scraper` Class
@@ -83,3 +85,7 @@ The `#add_student_attributes` method should iterate over the given hash and use 
 #### The `#all` Method
 
 This class method should return the contents of the `@@all` array. 
+
+### Our Code in Action
+
+Now that you have all your tests passing, run the executable file with `ruby bin/run`. You should see all of the students you scraped and instantiated `puts`-ed out to the terminal. 

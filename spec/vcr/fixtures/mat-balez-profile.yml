@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: http://students.learn.co/students/profile.html
+    uri: http://students.learn.co/students/mathieu-balez.html
     body:
       encoding: US-ASCII
       string: ''
@@ -27,17 +27,17 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       Expires:
-      - Fri, 13 Nov 2015 11:29:11 GMT
+      - Fri, 13 Nov 2015 14:51:32 GMT
       Cache-Control:
       - max-age=600
       X-Github-Request-Id:
-      - C71B4C19:09B7:18525CF6:5645C72F
+      - 17EB2C1A:592C:1813C2E8:5645F69B
       Content-Length:
-      - '957'
+      - '902'
       Accept-Ranges:
-      - bytes
+      - none
       Date:
-      - Fri, 13 Nov 2015 11:19:11 GMT
+      - Fri, 13 Nov 2015 14:41:32 GMT
       Via:
       - 1.1 varnish
       Age:
@@ -45,17 +45,17 @@ http_interactions:
       Connection:
       - keep-alive
       X-Served-By:
-      - cache-jfk1035-JFK
+      - cache-dfw1825-DFW
       X-Cache:
       - MISS
       X-Cache-Hits:
       - '0'
       X-Timer:
-      - S1447413551.602457,VS0,VE10
+      - S1447425692.010135,VS0,VE59
       Vary:
       - Accept-Encoding
       X-Fastly-Request-Id:
-      - 77c78cb548260406218fdfc06baa3cf683cbdad0
+      - 75f2023403f64e2d6f7d49aaddeb41a3b989f280
     body:
       encoding: UTF-8
       string: |
@@ -75,19 +75,19 @@ http_interactions:
                   <img class="learn-logo" src="../assets/img/logo.png"/>
                 </a>
               </header>
-              <div class="profile-banner"></div>
+              <div class="profile-banner" id="mathieu-balez-cover"></div>
               <div class="vitals-container">
-                <div class="profile-photo"></div>
+                <div class="profile-photo" id="mathieu-balez-card"></div>
                 <div class="social-icon-container">
-                  <a href="#"><img class="social-icon" src="../assets/img/twitter-icon.png"/></a>
-                  <a href="#"><img class="social-icon" src="../assets/img/linkedin-icon.png"/></a>
-                  <a href="#"><img class="social-icon" src="../assets/img/github-icon.png"/></a>
-                  <a href="#"><img class="social-icon" src="../assets/img/rss-icon.png"/></a>
+                  <a href="http://twitter.com/matbalez"><img class="social-icon" src="../assets/img/twitter-icon.png"/></a>
+                  <a href="http://www.linkedin.com/matbalez"><img class="social-icon" src="../assets/img/linkedin-icon.png"/></a>
+                  <a href="http://www.github.com/matbalez"><img class="social-icon" src="../assets/img/github-icon.png"/></a>
+                  <!--<a href="#"><img class="social-icon" src="../assets/img/rss-icon.png"/></a>-->
                 </div>
                 <div class="vitals-text-container">
-                  <h1 class="profile-name">Daniel Fenjves</h1>
+                  <h1 class="profile-name">Mathieu Balez</h1>
                   <h2 class="profile-location">New York, NY</h2>
-                  <div class="profile-quote">"Forget safety. Live where you fear to live. Destroy your reputation. Be notorious." - Rumi</div>
+                  <div class="profile-quote">"Who dares wins" - British Special Air Service</div>
                 </div>
               </div>
               <div class="details-container">
@@ -97,7 +97,7 @@ http_interactions:
                       <h3>Biography</h3>
                     </div>
                     <div class="description-holder">
-                      <p>I was in southern California for college (sun and In-n-Out!), rural Oregon for high school (lived in a town with 1500 people and 3000+ cows), and Tokyo for elementary/middle school.</p>
+                      <p>I was born in Northern Ontario where I grew up riding snowmobiles.</p>
                     </div>
                   </div>
                 </div>
@@ -107,12 +107,12 @@ http_interactions:
                       <h3>Education</h3>
                     </div>
                     <div class="description-holder">
-                      <h4>University of California</h4>
-                      <h5>Bachelor of Economics</h5>
+                      <h4>Queen's University</h4>
+                      <h5>BSc Electrical Engineering</h5>
                     </div>
                     <div class="description-holder">
-                      <h4>San Diego State</h4>
-                      <h5>Associate in Business</h5>
+                      <h4>Queen's University</h4>
+                      <h5>MSc in Management</h5>
                     </div>
                   </div>
                 </div>
@@ -122,12 +122,12 @@ http_interactions:
                       <h3>Experience</h3>
                     </div>
                     <div class="description-holder">
-                      <h4>H&R Block</h4>
-                      <h5>Project Manager</h5>
+                      <h4>Flatiron School</h4>
+                      <h5>VP of Product</h5>
                     </div>
                     <div class="description-holder">
-                      <h4>Coca-Cola Company</h4>
-                      <h5>Account Manager</h5>
+                      <h4>Google</h4>
+                      <h5>Senior Product Manager</h5>
                     </div>
                   </div>
                 </div>
@@ -139,5 +139,5 @@ http_interactions:
           </body>
         </html>
     http_version: 
-  recorded_at: Fri, 13 Nov 2015 11:19:14 GMT
+  recorded_at: Fri, 13 Nov 2015 14:41:31 GMT
 recorded_with: VCR 3.0.0

@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: http://learn-co-curriculum.github.io/student-scrape-site/
+    uri: http://students.learn.co/
     body:
       encoding: US-ASCII
       string: ''
@@ -23,21 +23,21 @@ http_interactions:
       Content-Type:
       - text/html; charset=utf-8
       Last-Modified:
-      - Wed, 04 Nov 2015 20:35:28 GMT
+      - Thu, 12 Nov 2015 16:34:19 GMT
       Access-Control-Allow-Origin:
       - "*"
       Expires:
-      - Wed, 04 Nov 2015 20:48:28 GMT
+      - Fri, 13 Nov 2015 11:29:11 GMT
       Cache-Control:
       - max-age=600
       X-Github-Request-Id:
-      - 17EB2E27:09B4:97B819C:563A6CC3
+      - C71B4C1E:09B4:1659D02D:5645C72F
       Content-Length:
-      - '751'
+      - '651'
       Accept-Ranges:
-      - none
+      - bytes
       Date:
-      - Wed, 04 Nov 2015 20:41:40 GMT
+      - Fri, 13 Nov 2015 11:19:11 GMT
       Via:
       - 1.1 varnish
       Age:
@@ -45,20 +45,20 @@ http_interactions:
       Connection:
       - keep-alive
       X-Served-By:
-      - cache-iad2146-IAD
+      - cache-jfk1034-JFK
       X-Cache:
       - MISS
       X-Cache-Hits:
       - '0'
       X-Timer:
-      - S1446669700.603860,VS0,VE3
+      - S1447413551.530955,VS0,VE9
       Vary:
       - Accept-Encoding
       X-Fastly-Request-Id:
-      - 40423d15284e6ceb65ff0c0c94ebe6511329eb34
+      - 07cab9cf62af59dba6f883f61a559b5cd113b207
     body:
-      encoding: ASCII-8BIT
-      string: |-
+      encoding: UTF-8
+      string: |
         <html>
           <head>
             <meta charset="utf-8"/>
@@ -81,83 +81,40 @@ http_interactions:
                   <h2>We're a group of people on a journey to learn to love code.</h2>
                 </div>
                 <div class="roster-cards-container">
-                  <div class="student-card card-1">
-                    <a href="#">
+                  <div class="student-card" id="joe-burgess-card">
+                    <a href="students/joe-burgess.html">
                       <div class="view-profile-div">
                         <h3 class="view-profile-text">View Profile</h3>
                       </div>
                       <div class="card-text-container">
-                        <h4 class="student-name">Alex Patriquin</h4>
+                        <h4 class="student-name">Joe Burgess</h4>
                         <p class="student-location">New York, NY</p>
                       </div>
                     </a>
                   </div>
-                  <div class="student-card card-2">
-                    <a href="#">
+                  <div class="student-card" id="mathieu-balez-card">
+                    <a href="students/mathieu-balez.html">
                       <div class="view-profile-div">
                         <h3 class="view-profile-text">View Profile</h3>
                       </div>
                       <div class="card-text-container">
-                        <h4 class="student-name">Bacon McRib</h4>
-                        <p class="student-location">Kansas City, MO</p>
+                        <h4 class="student-name">Mathieu Balez</h4>
+                        <p class="student-location">New York, NY</p>
                       </div>
                     </a>
                   </div>
-                  <div class="student-card card-3">
-                    <a href="#">
+                  <div class="student-card" id="diane-vu-card">
+                    <a href="students/diane-vu.html">
                       <div class="view-profile-div">
                         <h3 class="view-profile-text">View Profile</h3>
                       </div>
                       <div class="card-text-container">
-                        <h4 class="student-name">Alisha McWilliams</h4>
-                        <p class="student-location">San Francisco, CA</p>
+                        <h4 class="student-name">Diane Vu</h4>
+                        <p class="student-location">New York, NY</p>
                       </div>
                     </a>
                   </div>
-                  <div class="student-card card-4">
-                    <a href="#">
-                      <div class="view-profile-div">
-                        <h3 class="view-profile-text">View Profile</h3>
-                      </div>
-                      <div class="card-text-container">
-                        <h4 class="student-name">Daniel Fenjves</h4>
-                        <p class="student-location">Austin, TX</p>
-                      </div>
-                    </a>
-                  </div>
-                  <div class="student-card card-5">
-                    <a href="#">
-                      <div class="view-profile-div">
-                        <h3 class="view-profile-text">View Profile</h3>
-                      </div>
-                      <div class="card-text-container">
-                        <h4 class="student-name">Arielle Sullivan</h4>
-                        <p class="student-location">Chicago, IL</p>
-                      </div>
-                    </a>
-                  </div>
-                  <div class="student-card card-6">
-                    <a href="#">
-                      <div class="view-profile-div">
-                        <h3 class="view-profile-text">View Profile</h3>
-                      </div>
-                      <div class="card-text-container">
-                        <h4 class="student-name">Sushanth Bhaskarab</h4>
-                        <p class="student-location">Portland, OR</p>
-                      </div>
-                    </a>
-                  </div>
-                  <div class="student-card card-7">
-                    <a href="#">
-                      <div class="view-profile-div">
-                        <h3 class="view-profile-text">View Profile</h3>
-                      </div>
-                      <div class="card-text-container">
-                        <h4 class="student-name">Sushanth Bhaskarab</h4>
-                        <p class="student-location">Portland, OR</p>
-                      </div>
-                    </a>
-                  </div>
+
                 </div>
               </div>
               <footer class="footer">
@@ -167,5 +124,5 @@ http_interactions:
           </body>
         </html>
     http_version: 
-  recorded_at: Wed, 04 Nov 2015 20:41:40 GMT
+  recorded_at: Fri, 13 Nov 2015 11:19:13 GMT
 recorded_with: VCR 3.0.0

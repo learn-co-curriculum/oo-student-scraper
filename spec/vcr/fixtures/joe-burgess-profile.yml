@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: http://students.learn.co/students/profile.html
+    uri: http://students.learn.co/students/joe-burgess.html
     body:
       encoding: US-ASCII
       string: ''
@@ -27,17 +27,17 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       Expires:
-      - Fri, 13 Nov 2015 11:29:11 GMT
+      - Fri, 13 Nov 2015 13:19:18 GMT
       Cache-Control:
       - max-age=600
       X-Github-Request-Id:
-      - C71B4C19:09B7:18525CF6:5645C72F
+      - C71B4C1D:09B4:16789C31:5645E0FD
       Content-Length:
-      - '957'
+      - '974'
       Accept-Ranges:
       - bytes
       Date:
-      - Fri, 13 Nov 2015 11:19:11 GMT
+      - Fri, 13 Nov 2015 13:09:18 GMT
       Via:
       - 1.1 varnish
       Age:
@@ -45,17 +45,17 @@ http_interactions:
       Connection:
       - keep-alive
       X-Served-By:
-      - cache-jfk1035-JFK
+      - cache-jfk1021-JFK
       X-Cache:
       - MISS
       X-Cache-Hits:
       - '0'
       X-Timer:
-      - S1447413551.602457,VS0,VE10
+      - S1447420158.268781,VS0,VE9
       Vary:
       - Accept-Encoding
       X-Fastly-Request-Id:
-      - 77c78cb548260406218fdfc06baa3cf683cbdad0
+      - 0400a35e2923446e26456751f02088e453db0031
     body:
       encoding: UTF-8
       string: |
@@ -71,23 +71,23 @@ http_interactions:
           <body>
             <div class="main-wrapper profile">
               <header class="header">
-                <a href="/">
+                <a href="../">
                   <img class="learn-logo" src="../assets/img/logo.png"/>
                 </a>
               </header>
-              <div class="profile-banner"></div>
+              <div class="profile-banner" id="joe-burgess-cover"></div>
               <div class="vitals-container">
-                <div class="profile-photo"></div>
+                <div class="profile-photo" id="joe-burgess-card"></div>
                 <div class="social-icon-container">
-                  <a href="#"><img class="social-icon" src="../assets/img/twitter-icon.png"/></a>
-                  <a href="#"><img class="social-icon" src="../assets/img/linkedin-icon.png"/></a>
-                  <a href="#"><img class="social-icon" src="../assets/img/github-icon.png"/></a>
-                  <a href="#"><img class="social-icon" src="../assets/img/rss-icon.png"/></a>
+                  <a href="https://twitter.com/jmburges"><img class="social-icon" src="../assets/img/twitter-icon.png"/></a>
+                  <a href="https://www.linkedin.com/in/jmburges"><img class="social-icon" src="../assets/img/linkedin-icon.png"/></a>
+                  <a href="https://github.com/jmburges"><img class="social-icon" src="../assets/img/github-icon.png"/></a>
+                  <a href="http://joemburgess.com/"><img class="social-icon" src="../assets/img/rss-icon.png"/></a>
                 </div>
                 <div class="vitals-text-container">
-                  <h1 class="profile-name">Daniel Fenjves</h1>
+                  <h1 class="profile-name">Joe Burgess</h1>
                   <h2 class="profile-location">New York, NY</h2>
-                  <div class="profile-quote">"Forget safety. Live where you fear to live. Destroy your reputation. Be notorious." - Rumi</div>
+                  <div class="profile-quote">"Reduce to a previously solved problem"</div>
                 </div>
               </div>
               <div class="details-container">
@@ -97,7 +97,7 @@ http_interactions:
                       <h3>Biography</h3>
                     </div>
                     <div class="description-holder">
-                      <p>I was in southern California for college (sun and In-n-Out!), rural Oregon for high school (lived in a town with 1500 people and 3000+ cows), and Tokyo for elementary/middle school.</p>
+                      <p>I grew up outside of the Washington DC (NoVA!) and went to college at Carnegie Mellon University in Pittsburgh. After college, I worked as an Oracle consultant for IBM for a bit and now I teach here at The Flatiron School.</p>
                     </div>
                   </div>
                 </div>
@@ -107,12 +107,8 @@ http_interactions:
                       <h3>Education</h3>
                     </div>
                     <div class="description-holder">
-                      <h4>University of California</h4>
-                      <h5>Bachelor of Economics</h5>
-                    </div>
-                    <div class="description-holder">
-                      <h4>San Diego State</h4>
-                      <h5>Associate in Business</h5>
+                      <h4>Carnegie Mellon University</h4>
+                      <h5>Bachelor of Science in Information Systems and Economics</h5>
                     </div>
                   </div>
                 </div>
@@ -122,12 +118,12 @@ http_interactions:
                       <h3>Experience</h3>
                     </div>
                     <div class="description-holder">
-                      <h4>H&R Block</h4>
-                      <h5>Project Manager</h5>
+                      <h4>The Flatiron School</h4>
+                      <h5>Lead iOS Instructor</h5>
                     </div>
                     <div class="description-holder">
-                      <h4>Coca-Cola Company</h4>
-                      <h5>Account Manager</h5>
+                      <h4>IBM</h4>
+                      <h5>Consultant</h5>
                     </div>
                   </div>
                 </div>
@@ -139,5 +135,5 @@ http_interactions:
           </body>
         </html>
     http_version: 
-  recorded_at: Fri, 13 Nov 2015 11:19:14 GMT
+  recorded_at: Fri, 13 Nov 2015 13:09:18 GMT
 recorded_with: VCR 3.0.0

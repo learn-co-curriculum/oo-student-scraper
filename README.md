@@ -98,3 +98,5 @@ WebMock.disable_net_connect!(allow_localhost: true)
 ```
 
 Now, run the executable file with `ruby bin/run`. You should see all of the students you scraped and instantiated `puts`-ed out to the terminal. Great job!
+
+<a href='https://learn.co/lessons/oo-student-scraper' data-visibility='hidden'>View this lesson on Learn.co</a>

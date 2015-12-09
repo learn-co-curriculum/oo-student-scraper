@@ -8,7 +8,7 @@
 
 ## Overview
 
-In this lab, you'll be scraping your Learn.co student webiste. You'll use the index page to grab a list of current students and instantiate a series of `Student` objects. You'll scrape the individual profile pages of each student to add attributes to each individual student. 
+In this lab, you'll be scraping your Learn.co student website. You'll use the index page to grab a list of current students and instantiate a series of `Student` objects. You'll scrape the individual profile pages of each student to add attributes to each individual student. 
 
 We've given you a third class, `CommandLineInterface` That is responsible for generating students using both the `Student` and `Scraper` classes. As you go through this lab, take some time to read through the code in the `CommandLineInterface` class. Try to understand how it works and how it uses the code in our other classes to actually create, add attributes and display students to the user via the command line interface. 
 

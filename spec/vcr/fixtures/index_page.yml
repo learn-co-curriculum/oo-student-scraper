@@ -123,6 +123,6 @@ http_interactions:
             </div>
           </body>
         </html>
-    http_version: 
+    http_version:
   recorded_at: Fri, 13 Nov 2015 11:19:13 GMT
 recorded_with: VCR 3.0.0

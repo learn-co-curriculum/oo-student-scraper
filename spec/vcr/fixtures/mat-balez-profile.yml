@@ -82,7 +82,7 @@ http_interactions:
                   <a href="http://twitter.com/matbalez"><img class="social-icon" src="../assets/img/twitter-icon.png"/></a>
                   <a href="http://www.linkedin.com/matbalez"><img class="social-icon" src="../assets/img/linkedin-icon.png"/></a>
                   <a href="http://www.github.com/matbalez"><img class="social-icon" src="../assets/img/github-icon.png"/></a>
-                  <!--<a href="#"><img class="social-icon" src="../assets/img/rss-icon.png"/></a>-->
+                  <a href=""><img class="social-icon" src="../assets/img/rss-icon.png"/></a>
                 </div>
                 <div class="vitals-text-container">
                   <h1 class="profile-name">Mathieu Balez</h1>
@@ -138,6 +138,6 @@ http_interactions:
             </div>
           </body>
         </html>
-    http_version: 
+    http_version:
   recorded_at: Fri, 13 Nov 2015 14:41:31 GMT
 recorded_with: VCR 3.0.0

@@ -3,7 +3,13 @@ require_relative "../lib/student.rb"
 require 'nokogiri'
 
 class CommandLineInteface
-  BASE_URL = "http://students.learn.co"
+  # BASE_URL = "http://students.learn.co"
+
+  attr_accessor :url
+
+  def initialize(url)
+    @url = url
+  end
 
   def run
     make_students
@@ -12,7 +18,7 @@ class CommandLineInteface
   end
 
   def make_students
-    students_array = Scraper.scrape_index_page(BASE_URL)
+    students_array = Scraper.scrape_index_page(url)
     Student.create_from_collection(students_array)
   end
 

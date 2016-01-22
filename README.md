@@ -16,7 +16,7 @@ We've also given you an executable file in `bin/run` that you can execute once y
 
 ## Before You Begin
 
-For this project, we'll be scraping data from your student site at [students.learn.co](http://students.learn.co/). Sort of. We can't really give you a project with a full test suite and base those tests on a real live website on the real live internet. Why? Because web sites change! They get new styling, new information or they break because someone did something wrong. It happens! So, any tests we write would be based on the website at a given point in time. The code you write to pass those tests would assume that you are scraping a website that may have since changed. Your scraper would pass tests but fail to actually scrape the web page if you tried to run your code by sending a real web request to the real website. That would be terrible! Then you couldn't see your code in action or view the page you were writing code to scrape. Just awful. 
+For this project, we'll be scraping data from your student site at [students.learn.co](http://students.learn.co/). Sort of. We can't really give you a project with a full test suite and base those tests on a real live website on the real live internet. Why? Because websites change! They get new styling, new information or they break because someone did something wrong. It happens! So, any tests we write would be based on the website at a given point in time. The code you write to pass those tests would assume that you are scraping a website that may have since changed. Your scraper would pass tests but fail to actually scrape the web page if you tried to run your code by sending a real web request to the real website. That would be terrible! Then you couldn't see your code in action or view the page you were writing code to scrape. Just awful. 
 
 Don't worry! We've very cleverly solved this problem for the purposes of this project. We've stored a copy of your student site *inside a subdirectory in this project*. The copy is being maintained only for the purposes of this project, so we don't have to worry about things like the styling changing or the code breaking and effecting our scraper code. 
 
@@ -25,7 +25,22 @@ You will deploy this website locally by running it on a server on your computer.
 * `cd` into `oo-student-scraper/fixtures/student-site`.
 * Then, in the terminal, run `jekyll serve`. You'll see something like this:
 
+```bash
+Configuration file: /Users/sophiedebenedetto/Desktop/Dev/oo-student-scraper/fixtures/student-site/_config.yml
+            Source: /Users/sophiedebenedetto/Desktop/Dev/oo-student-scraper/fixtures/student-site
+       Destination: /Users/sophiedebenedetto/Desktop/Dev/oo-student-scraper/fixtures/student-site/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+                    done in 2.062 seconds.
+ Auto-regeneration: enabled for '/Users/sophiedebenedetto/Desktop/Dev/oo-student-scraper/fixtures/student-site'
+Configuration file: /Users/sophiedebenedetto/Desktop/Dev/oo-student-scraper/fixtures/student-site/_config.yml
+    Server address: http://127.0.0.1:4000/
+  Server running... press ctrl-c to stop.
+```
 
+Most of that isn't important. We do want to pay attention to the second to last line, however. `Server address: http://127.0.0.1:4000/`. This tells us what port on our local server we can view the website at. Open up your browser and paste in `http://127.0.0.1:4000/` and you should see your student site!
+
+**Important:** Make sure you are running the site via `jekyll server` when you run `rspec`. The tests are using the code you will write that sends a web request and scrapes a site. The web request that is getting sent is to `http://127.0.0.1:4000/`, the port that Jekyll will run the site on when you execute `jekyll serve`. So, if your connection to the server on port 4000 isn't running, the test suite can't execute your code. 
 
 
 ## Instructions
@@ -43,11 +58,11 @@ Here's a look at the desired behavior:
 ```ruby
 Scraper.scrape_index_page(index_url)
 # => [
-        {:name => "Abby Smith", :location => "Brooklyn, NY", :profile_url => "http://students.learn.co/students/abby-smith.html"},
-        {:name => "Joe Jones", :location => "Paris, France", :profile_url => "http://students.learn.co/students/joe-jonas.html"},
-        {:name => "Carlos Rodriguez", :location => "New York, NY", :profile_url => "http://students.learn.co/students/carlos-rodriguez.html"},
-        {:name => "Lorenzo Oro", :location => "Los Angeles, CA", :profile_url => "http://students.learn.co/students/lorenzo-oro.html"},
-        {:name => "Marisa Royer", :location => "Tampa, FL", :profile_url => "http://students.learn.co/students/marisa-royer.html"} 
+        {:name => "Abby Smith", :location => "Brooklyn, NY", :profile_url => "http://127.0.0.1:4000/students/abby-smith.html"},
+        {:name => "Joe Jones", :location => "Paris, France", :profile_url => "http://127.0.0.1:4000/students/joe-jonas.html"},
+        {:name => "Carlos Rodriguez", :location => "New York, NY", :profile_url => "http://127.0.0.1:4000/students/carlos-rodriguez.html"},
+        {:name => "Lorenzo Oro", :location => "Los Angeles, CA", :profile_url => "http://127.0.0.1:4000/students/lorenzo-oro.html"},
+        {:name => "Marisa Royer", :location => "Tampa, FL", :profile_url => "http://127.0.0.1:4000/students/marisa-royer.html"} 
       ]
 ```
 
@@ -100,16 +115,11 @@ The `#add_student_attributes` method should iterate over the given hash and use 
 
 This class method should return the contents of the `@@all` array. 
 
-### Our Code in Action
+## Our Code in Action
 
 Now that you have all your tests passing, you can run our executable file, which relies on our `CommandLineInterface` class. 
 
-**Important:** Our test suite relies on something called stubbing to fake the web requests your code is making in the `Scraper` class. It is not important to understand this right now, just know that we need to do this in the test suite so that we can test all of you students using the same data. In order to run your code with *your real student site* instead of our fake/only-for-testing one, open up `spec/spec_helper` and comment out these two lines:
-
-```ruby
-require 'webmock/rspec'  
-WebMock.disable_net_connect!(allow_localhost: true) 
-```
+We've provided you with all of the code in the `CommandLineInterface` class. Take a few minutes to read through this class and gain a strong understanding of how it uses the code you wrote in your Scraper and Student classes to make a web request to the site running via Jekyll and scrape the students. 
 
 Now run the executable file with `ruby bin/run`. You should see all of the students you scraped and instantiated `puts`-ed out to the terminal. Great job!
 

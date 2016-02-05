@@ -45,6 +45,8 @@ Most of that isn't important. We do want to pay attention to the second to last 
 
 ## Instructions
 
+Run `bundle install` first. 
+
 ### The `Scraper` Class
 
 Let's start with the `Scraper` class in `lib/scraper.rb`. In this class you are responsible for defining two methods. The `#scrape_index_page` method is responsible for scraping the index page that lists all of the students and the `#scrape_profile_page` method is responsible for scraping an individual student's profile page to get further information about that student. 

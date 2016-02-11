@@ -40,7 +40,7 @@ Configuration file: /Users/sophiedebenedetto/Desktop/Dev/oo-student-scraper/fixt
 
 Most of that isn't important. We do want to pay attention to the second to last line, however. `Server address: http://127.0.0.1:4000/`. This tells us what port on our local server we can view the website at. Open up your browser and paste in `http://127.0.0.1:4000/` and you should see your student site!
 
-**Important:** Make sure you are running the site via `jekyll server` when you run `rspec`. The tests are using the code you will write that sends a web request and scrapes a site. The web request that is getting sent is to `http://127.0.0.1:4000/`, the port that Jekyll will run the site on when you execute `jekyll serve`. So, if your connection to the server on port 4000 isn't running, the test suite can't execute your code. 
+**Important:** Make sure you are running the site via `jekyll server` when you run `rspec`. The tests are using the code you will write that sends a web request and scrapes a site. The web request that is getting sent is to `http://127.0.0.1:4000/`, the port that Jekyll will run the site on when you execute `jekyll serve`. So, if your connection to the server on port 4000 isn't running, the test suite can't execute your code.  You will need to open a second tab in your command line, in order to run `rspec` while Jekyll is also running.  
 
 
 ## Instructions
@@ -126,3 +126,5 @@ We've provided you with all of the code in the `CommandLineInterface` class. Tak
 Now run the executable file with `ruby bin/run`. You should see all of the students you scraped and instantiated `puts`-ed out to the terminal. Great job!
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/oo-student-scraper' title='Object Oriented Student Scraper'>Object Oriented Student Scraper</a> on Learn.co and start learning to code for free.</p>
+
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/oo-student-scraper'>Student Scraper</a> on Learn.co and start learning to code for free.</p>

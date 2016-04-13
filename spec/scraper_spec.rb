@@ -23,7 +23,7 @@ describe "Scraper" do
 
   describe "#scrape_index_page" do
     it "is a class method that scrapes the student index page and a returns an array of hashes in which each hash represents one student" do
-      index_url = "http://127.0.0.1:4000/index.html"
+      index_url = "http://127.0.0.1:4000/fixtures/student-site/index.html"
       scraped_students = Scraper.scrape_index_page(index_url)
       expect(scraped_students).to be_a(Array)
       expect(scraped_students.first).to have_key(:location)

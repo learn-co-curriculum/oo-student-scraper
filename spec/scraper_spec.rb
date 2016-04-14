@@ -21,9 +21,9 @@ describe "Scraper" do
  :bio=>
   "I'm a southern California native seeking to find work as a full stack web developer. I enjoying tinkering with computers and learning new things!"}}
 
-  describe "#scrape_index_page" do 
-    it "is a class method that scrapes the student index page and a returns an array of hashes in which each hash represents one student" do 
-      index_url = "http://127.0.0.1:4000/"
+  describe "#scrape_index_page" do
+    it "is a class method that scrapes the student index page and a returns an array of hashes in which each hash represents one student" do
+      index_url = "http://127.0.0.1:4000/fixtures/student-site/index.html"
       scraped_students = Scraper.scrape_index_page(index_url)
       expect(scraped_students).to be_a(Array)
       expect(scraped_students.first).to have_key(:location)
@@ -32,16 +32,16 @@ describe "Scraper" do
     end
   end
 
-  describe "#scrape_profile_page" do 
-    it "is a class method that scrapes a student's profile page and returns a hash of attributes describing an individual student" do 
-      profile_url = "http://127.0.0.1:4000/students/joe-burgess.html"
+  describe "#scrape_profile_page" do
+    it "is a class method that scrapes a student's profile page and returns a hash of attributes describing an individual student" do
+      profile_url = "http://127.0.0.1:4000/fixtures/student-site/students/joe-burgess.html"
       scraped_student = Scraper.scrape_profile_page(profile_url)
       expect(scraped_student).to be_a(Hash)
       expect(scraped_student).to match(student_joe_hash)
     end
 
-    it "can handle profile pages without all of the social links" do 
-      profile_url = "http://127.0.0.1:4000/students/david-kim.html"
+    it "can handle profile pages without all of the social links" do
+      profile_url = "http://127.0.0.1:4000/fixtures/student-site/students/david-kim.html"
       scraped_student = Scraper.scrape_profile_page(profile_url)
       expect(scraped_student).to be_a(Hash)
       expect(scraped_student).to match(student_david_hash)

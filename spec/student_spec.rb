@@ -35,8 +35,9 @@ describe "Student" do
     end
   end
 
-  describe "#create_from_site" do 
+  describe ".create_from_collection" do 
     it "uses the Scraper class to create new students with the correct name and location." do 
+      Student.class_variable_set(:@@all, [])
       Student.create_from_collection(student_index_array)
       expect(Student.class_variable_get(:@@all).first.name).to eq("Alex Patriquin")
     end
@@ -50,6 +51,13 @@ describe "Student" do
       expect(student.linkedin).to eq("someone@linkedin.com")
       expect(student.profile_quote).to eq("\"Forget safety. Live where you fear to live. Destroy your reputation. Be notorious.\" - Rumi")
       expect(student.twitter).to eq("someone@twitter.com")
+    end
+  end
+
+  describe '.all' do
+    it 'returns the class variable @@all' do
+      Student.class_variable_set(:@@all, [])
+      expect(Student.all).to match_array([])
     end
   end
 end

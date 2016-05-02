@@ -44,6 +44,7 @@ Most of that isn't important. We do want to pay attention to the second to last 
 
 **Important:** Make sure you are running the site via the `jekyll server` when you run `rspec`. The tests are using the code you will write that sends a web request and scrapes a site. The web request that is getting sent is to `http://127.0.0.1:4000/`, the host and port that Jekyll will run the site on when you execute `jekyll serve`. So, if your connection to the server on port 4000 isn't running, the test suite can't execute your code.  You will need to open a second tab in your command line, in order to run `rspec` while Jekyll is also running.
 
+**Important if you're using the Learn IDE:** If you're using the Learn IDE and you cannot open up another terminal window (one for the jekyll server and one for the `rspec` command) you can just run the server as a background job (`jekyll serve &`). For more information on background jobs in bash, take a look at this readme: https://github.com/learn-co-curriculum/bash-background-jobs/
 
 ## Instructions
 

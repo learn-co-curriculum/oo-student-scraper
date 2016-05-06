@@ -22,6 +22,8 @@ Don't worry! We've very cleverly solved this problem for the purposes of this pr
 
 You will deploy this website locally by running it on a server on your computer. Here's how:
 
+**Important if you're using the Learn IDE:** If you're using the Learn IDE and you cannot open up another terminal window (one for the jekyll server and one for the `rspec` command) you can just run the server as a background job (`jekyll serve &`). For more information on background jobs in bash, take a look at this readme: https://github.com/learn-co-curriculum/bash-background-jobs/
+
 * `cd` into `oo-student-scraper/fixtures/student-site`.
 * Then, in the terminal, run `jekyll serve`. You'll see something like this:
 
@@ -38,13 +40,9 @@ Configuration file: /Users/sophiedebenedetto/Desktop/Dev/oo-student-scraper/fixt
   Server running... press ctrl-c to stop.
 ```
 
-(If you're using Nitrous.io, you might need to follow [these instructions](git@github.com:learn-co-curriculum/oo-student-scraper.git).)
-
 Most of that isn't important. We do want to pay attention to the second to last line, however. `Server address: http://127.0.0.1:4000/`. This tells us what port on our local server we can view the website at. Open up your browser and paste in `http://127.0.0.1:4000/` and you should see your student site! (note: `http://127.0.0.1` is often referred to as `localhost` and many browsers and other systems [use this term](https://en.wikipedia.org/wiki/Localhost). They are effectively interchangable, i.e., you could just as easily paste `localhost:4000` into a browser and it would be the same.)
 
 **Important:** Make sure you are running the site via the `jekyll server` when you run `rspec`. The tests are using the code you will write that sends a web request and scrapes a site. The web request that is getting sent is to `http://127.0.0.1:4000/`, the host and port that Jekyll will run the site on when you execute `jekyll serve`. So, if your connection to the server on port 4000 isn't running, the test suite can't execute your code.  You will need to open a second tab in your command line, in order to run `rspec` while Jekyll is also running.
-
-**Important if you're using the Learn IDE:** If you're using the Learn IDE and you cannot open up another terminal window (one for the jekyll server and one for the `rspec` command) you can just run the server as a background job (`jekyll serve &`). For more information on background jobs in bash, take a look at this readme: https://github.com/learn-co-curriculum/bash-background-jobs/
 
 ## Instructions
 

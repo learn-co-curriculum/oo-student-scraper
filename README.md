@@ -18,7 +18,7 @@ We've also given you an executable file in `bin/run` that you can execute once y
 
 For this project, we'll be scraping data from your student site at [students.learn.co](http://students.learn.co/). Sort of. We can't really give you a project with a full test suite and base those tests on a real live website on the real live internet. Why? Because websites change! They get new styling, new information, or they break because someone did something wrong. It happens! So, any tests we write would be based on the website at a given point in time. The code you write to pass those tests would assume that you are scraping a website that may have since changed. Your scraper would pass tests but fail to actually scrape the web page if you tried to run your code by sending a real web request to the real website. That would be terrible! Then you couldn't see your code in action or view the page you were writing code to scrape. Just awful.
 
-Don't worry! We've very cleverly solved this problem for the purposes of this project. We've stored a copy of your student site *inside a subdirectory in this project*. The copy is being maintained only for the purposes of this project, so we don't have to worry about things like the styling changing or the code breaking and effecting our scraper code.
+Don't worry! We've very cleverly solved this problem for the purposes of this project. We've stored a mini copy (just a small sampling) of your student site *inside a subdirectory in this project*. The copy is being maintained only for the purposes of this project, so we don't have to worry about things like the styling changing or the code breaking and effecting our scraper code.
 
 You will deploy this website locally by running it on a server on your computer. Here's how:
 

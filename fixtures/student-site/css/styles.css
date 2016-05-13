@@ -133,43 +133,35 @@ a:visited {
 }
 
 #joe-burgess-card {
-  background-image: url("../assets/img/joe-burgess.jpeg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/joe-burgess.jpeg");
 }
 
 #joe-burgess-cover {
-  background-image: url("../assets/img/joe-burgess-cover.png");
-}
-
-#avi-flombaum-card {
-  background-image: url("../assets/img/avi-flombaum.jpg");
-}
-
-#mat-balez-card {
-  background-image: url("../assets/img/mat-balez.jpeg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/joe-burgess-cover.png");
 }
 
 #mathieu-balez-cover {
-  background-image: url("../assets/img/mathieu-balez-cover.jpeg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/mathieu-balez-cover.jpeg");
 }
 
 #mathieu-balez-card {
-  background-image: url("../assets/img/mathieu-balez.jpeg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/mathieu-balez.jpeg");
 }
 
 #diane-vu-cover {
-  background-image: url("../assets/img/diane-vu-cover.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/diane-vu-cover.jpg");
 }
 
 #diane-vu-card {
-  background-image: url("../assets/img/diane-vu.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/diane-vu.jpg");
 }
 
 /* selector image links for david-kim */
 #david-kim {
-  background-image: url("../assets/img/david-kim.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/david-kim.jpg");
 }
 #david-kim-cover {
-  background-image: url("../assets/img/david-kim-cover.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/david-kim-cover.jpg");
 }
 
 .view-profile-div {

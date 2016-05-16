@@ -105,7 +105,7 @@ a:visited {
 
 .student-card {
   position: relative;
-  background-image: url("../assets/img/profile-photo-placeholder.png");
+ background-image: url("https://learn-verified.s3.amazonaws.com/profile-photo-placeholder.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -133,299 +133,295 @@ a:visited {
 }
 
 #aaron-enser-card{
-  background-image: url("../assets/img/aaron-enser.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/aaron-enser.jpg");
 }
 #aaron-enser-cover {
-  background-image: url("../assets/img/aaron-enser-cover.JPG");
+ background-image: url("https://learn-verified.s3.amazonaws.com/aaron-enser-cover.JPG");
 }
 #hiral-desai-card{
-  background-image: url("../assets/img/hiral-desai.jpg");
 }
 #hiral-desai-cover{
-  background-image: url("../assets/img/hiral-desai-cover.jpg")
 }
 #andy-zheng-card {
-  background-image: url("../assets/img/andy-zheng.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/andy-zheng.jpg");
 }
 
 #andy-zheng-cover {
-  background-image: url("../assets/img/andy-zheng-cover.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/andy-zheng-cover.jpg");
 }
 
 #brad-smith-card {
-  background-image: url("../assets/img/brad-smith.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/brad-smith.jpg");
 }
 
 #brad-smith-cover {
-  background-image: url("../assets/img/brad-smith-cover.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/brad-smith-cover.jpg");
 }
 
 #adrian-prieto-card {
-  background-image: url("../assets/img/adrian-prieto.jpeg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/adrian-prieto.jpeg");
 }
 
 #adrian-prieto-cover {
-  background-image: url("../assets/img/adrian-prieto-cover.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/adrian-prieto-cover.jpg");
 }
 
 #kyle-greene-card {
-  background-image: url("../assets/img/kyle-greene.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/kyle-greene.jpg");
 }
 
 #kyle-greene-cover {
-  background-image: url("../assets/img/kyle-greene-cover.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/kyle-greene-cover.jpg");
 }
 
 #ashley-muller-cover {
-  background-image: url("../assets/img/Ashley-Muller-Cover.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/Ashley-Muller-Cover.jpg");
 }
 
 #ashley-muller-card {
-  background-image: url("../assets/img/Ashley-Muller.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/Ashley-Muller.jpg");
 }
 
 #ed-karabinus-cover {
-  background-image: url("../assets/img/ed-karabinus-cover.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/ed-karabinus-cover.jpg");
 }
 
 #john-anthony-cover {
-  background-image: url("../assets/img/john-anthony-cover.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/john-anthony-cover.jpg");
 }
 
 #ed-karabinus-card {
-  background-image: url("../assets/img/ed-karabinus.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/ed-karabinus.jpg");
 }
 
 #john-fewell-card {
-  background-image: url("../assets/img/john-fewell.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/john-fewell.jpg");
 }
 
 #john-fewell-cover {
-  background-image: url("../assets/img/john-fewell-cover.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/john-fewell-cover.jpg");
 }
 
 #edgar-gonzalez-card {
-  background-image: url("../assets/img/edgar-gonzalez.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/edgar-gonzalez.jpg");
 }
 
 #edgar-gonzalez-cover {
-  background-image: url("../assets/img/edgar-gonzalez-cover.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/edgar-gonzalez-cover.jpg");
 }
 
 #zb-card {
-  background-image: url("../assets/img/zac-baston.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/zac-baston.jpg");
 }
 
 #zb-cover {
-  background-image: url("../assets/img/zac-baston-cover.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/zac-baston-cover.jpg");
 }
 
 #ruth-mesfun-cover {
-  background-image: url("../assets/img/ruth-mesfun-cover.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/ruth-mesfun-cover.jpg");
 }
 
 #ruth-mesfun-card {
-  background-image: url("../assets/img/ruth-mesfun.png");
+ background-image: url("https://learn-verified.s3.amazonaws.com/ruth-mesfun.png");
 }
 
 #brett-heenan-cover {
-  background-image: url("../assets/img/brett-heenan-cover.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/brett-heenan-cover.jpg");
 }
 
 #brett-heenan-card  {
-  background-image: url("../assets/img/brett-heenan.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/brett-heenan.jpg");
 }
 
 #mack-dalton-cover {
-  background-image: url("../assets/img/mack-dalton-cover.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/mack-dalton-cover.jpg");
 }
 
 #mack-dalton-card {
-  background-image: url("../assets/img/mack-dalton.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/mack-dalton.jpg");
 }
 
 #taiwei-ko-card {
-  background-image: url("../assets/img/taiwei.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/taiwei.jpg");
 }
 
 #taiwei-ko-cover {
-  background-image: url("../assets/img/city 1.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/city%201.jpg");
 }
 
 #daniel-brad-cover {
-  background-image: url("../assets/img/daniel-brad-cover.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/daniel-brad-cover.jpg");
 }
 
 #daniel-brad-card {
-  background-image: url("../assets/img/daniel-brad.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/daniel-brad.jpg");
 }
 
 #richard-lu-cover {
-  background-image: url("../assets/img/student-name-cover.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/student-name-cover.jpg");
 }
 
 #richard-lu-card {
-  background-image: url("../assets/img/student-name.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/student-name.jpg");
 }
 
 #Jelson-Rodriguez-cover {
-  background-image: url("../assets/img/jelson-rodriguez-cover.jpeg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/jelson-rodriguez-cover.jpeg");
 }
 
 #Jelson-Rodriguez-card {
-  background-image: url("../assets/img/jelson-rodriguez-card.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/jelson-rodriguez-card.jpg");
 }
 
 #duc-pham-card {
- background-image: url("../assets/img/duc-pham.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/duc-pham.jpg");
 }
 
 #duc-pham-cover {
- background-image: url("../assets/img/duc-pham-cover.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/duc-pham-cover.jpg");
 }
 
 #james-novak-cover {
-  background-image: url("../assets/img/james-novak-cover.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/james-novak-cover.jpg");
 }
 
 #james-novak-card {
-  background-image: url("../assets/img/james-novak.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/james-novak.jpg");
 }
 
 #jason-mcelrath-card {
-  background-image: url("../assets/img/jason-mcelrath.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/jason-mcelrath.jpg");
 }
 
 #jason-mcelrath-cover {
-  background-image: url("../assets/img/jason-mcelrath-cover.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/jason-mcelrath-cover.jpg");
 }
 
 #jason-southwell-card {
-  background-image: url("../assets/img/jason-southwell.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/jason-southwell.jpg");
 }
 
 #jason-southwell-cover {
-  background-image: url("../assets/img/jason-southwell-cover.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/jason-southwell-cover.jpg");
   background-position: center bottom;
 }
 
 #robert-cohen-card {
-  background-image: url("../assets/img/robert-cohen.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/robert-cohen.jpg");
 }
 
 #robert-cohen-cover {
-  background-image: url("../assets/img/robert-cohen-cover.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/robert-cohen-cover.jpg");
 }
 
 #luke-ghenco-card {
-  background-image: url("../assets/img/luke-ghenco.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/luke-ghenco.jpg");
 }
 
 #luke-ghenco-cover {
-  background-image: url("../assets/img/luke-ghenco-cover.jpeg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/luke-ghenco-cover.jpeg");
 }
 
 #shana-moore-card {
-  background-image: url("../assets/img/shana-moore.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/shana-moore.jpg");
 }
 
 #shana-moore-cover {
-  background-image: url("../assets/img/shana-moore-cover.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/shana-moore-cover.jpg");
 }
 
 #michael-nolan-card {
-  background-image: url("../assets/img/michael-nolan.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/michael-nolan.jpg");
 }
 
 #michael-nolan-cover {
-  background-image: url("../assets/img/michael-nolan-cover.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/michael-nolan-cover.jpg");
 }
 
 #joe-burgess-card {
-  background-image: url("../assets/img/joe-burgess.jpeg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/joe-burgess.jpeg");
 }
 
 #joe-burgess-cover {
-  background-image: url("../assets/img/joe-burgess-cover.png");
+ background-image: url("https://learn-verified.s3.amazonaws.com/joe-burgess-cover.png");
 }
 
 #cory-adams-card {
-  background-image: url("../assets/img/cory-adams.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/cory-adams.jpg");
 }
 
 #cory-adams-cover {
-  background-image: url("../assets/img/cory-adams-cover.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/cory-adams-cover.jpg");
 }
 
 #avi-flombaum-card {
-  background-image: url("../assets/img/avi-flombaum.jpg");
 }
 
 #mat-balez-card {
-  background-image: url("../assets/img/mat-balez.jpeg");
 }
 
 #mathieu-balez-cover {
-  background-image: url("../assets/img/mathieu-balez-cover.jpeg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/mathieu-balez-cover.jpeg");
 }
 
 #mathieu-balez-card {
-  background-image: url("../assets/img/mathieu-balez.jpeg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/mathieu-balez.jpeg");
 }
 
 #diane-vu-cover {
-  background-image: url("../assets/img/diane-vu-cover.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/diane-vu-cover.jpg");
 }
 
 #diane-vu-card {
-  background-image: url("../assets/img/diane-vu.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/diane-vu.jpg");
 }
 
 #bryony-delahoussaye-cover {
-  background-image: url("../assets/img/bryony-delahoussaye-cover.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/bryony-delahoussaye-cover.jpg");
 }
 
 #bryony-delahoussaye-card {
-  background-image: url("../assets/img/bryony-delahoussaye.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/bryony-delahoussaye.jpg");
 }
 
 #frank-nowinski-card {
-  background-image: url("../assets/img/frank-nowinski.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/frank-nowinski.jpg");
 }
 
 #frank-nowinski-cover {
-  background-image: url("../assets/img/background.jpeg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/background.jpeg");
 }
 
 #phil-lai-cover {
-  background-image: url("../assets/img/phil-lai-cover.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/phil-lai-cover.jpg");
 }
 
 #phil-lai-card {
-  background-image: url("../assets/img/phil-lai.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/phil-lai.jpg");
 }
 #vinesh-persaud-card {
-  background-image: url("../assets/img/vinesh-persaud.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/vinesh-persaud.jpg");
 }
 
 #vinesh-persaud-cover {
-  background-image: url("../assets/img/vinesh-persaud-cover.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/vinesh-persaud-cover.jpg");
 }
 
 #marsi-meyers-miyashita-cover {
-  background-image: url("../assets/img/marsi-meyers-miyashita-cover.jpg")
+ background-image: url("https://learn-verified.s3.amazonaws.com/marsi-meyers-miyashita-cover.jpg");
 }
 
 #marsi-meyers-miyashita-card {
-  background-image: url("../assets/img/marsi-meyers-miyashita.jpg")
+ background-image: url("https://learn-verified.s3.amazonaws.com/marsi-meyers-miyashita.jpg");
 }
 
 #sarah-lichter-card {
-  background-image: url("../assets/img/sarah-lichter.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/sarah-lichter.jpg");
 }
 
 #sarah-lichter-cover {
-  background-image: url("../assets/img/sarah-lichter-cover.jpeg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/sarah-lichter-cover.jpeg");
 }
 
 #justin-thomas-card{
@@ -433,607 +429,606 @@ a:visited {
 }
 
 #justin-thomas-cover{
-  background-image: url("../assets/img/justin-thomas-cover.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/justin-thomas-cover.jpg");
 }
 
 #shmully-wolfson-cover{
-  background-image: url("../assets/img/shmully-wolfson-cover.jpg")
+ background-image: url("https://learn-verified.s3.amazonaws.com/shmully-wolfson-cover.jpg");
 }
 
 #shmully-wolfson-card {
-  background-image: url("../assets/img/shmully-wolfson.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/shmully-wolfson.jpg");
 }
 
 #ben-wong-card {
-  background-image: url("../assets/img/ben-wong-profile.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/ben-wong-profile.jpg");
 }
 
 #ben-wong-cover {
-  background-image: url("../assets/img/ben-wong-cover.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/ben-wong-cover.jpg");
 }
 
 #pedro-acosta-card {
-  background-image: url("../assets/img/pedro-acosta-brooke.jpeg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/pedro-acosta-brooke.jpeg");
 }
 
 #pedro-acosta-cover {
-  background-image: url("../assets/img/sasuke-ak-halfwing.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/sasuke-ak-halfwing.jpg");
 }
 
 #seth-goldberg-cover {
-  background-image: url("../assets/img/seth-goldberg-cover.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/seth-goldberg-cover.jpg");
 }
 
 #seth-goldberg-card {
-  background-image: url("../assets/img/seth-goldberg.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/seth-goldberg.jpg");
 }
 
 #joseph-surla-cover {
-  background-image: url("../assets/img/joseph-surla-cover.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/joseph-surla-cover.jpg");
 }
 
 #joseph-surla-card {
-  background-image: url("../assets/img/joseph-surla.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/joseph-surla.jpg");
 }
 
 #yoshi-tamaoki-cover {
-  background-image: url("../assets/img/yoshi-tamaoki-cover.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/yoshi-tamaoki-cover.jpg");
 }
 
 #yoshi-tamaoki-card {
-  background-image: url("../assets/img/yoshi-tamaoki.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/yoshi-tamaoki.jpg");
 }
 
 #Matt-McGowan-card {
-  background-image: url("../assets/img/matt-mcgowan.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/matt-mcgowan.jpg");
 }
 
 #Matt-McGowan-cover {
-  background-image: url("../assets/img/Matt-McGowan-Cover.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/Matt-McGowan-Cover.jpg");
 }
 
 #don-febbraio-cover {
-  background-image: url("../assets/img/don-febbraio-cover.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/don-febbraio-cover.jpg");
 }
 
 #don-febbraio-card {
-  background-image: url("../assets/img/don-febbraio.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/don-febbraio.jpg");
 }
 
 #danny-dawson-cover {
-  background-image: url("../assets/img/danny-dawson-cover.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/danny-dawson-cover.jpg");
 }
 
 #danny-dawson-card {
-  background-image: url("../assets/img/danny-dawson.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/danny-dawson.jpg");
 }
 
 #dlm-card {
-  background-image: url("../assets/img/dakota-profile.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/dakota-profile.jpg");
 }
 
 #dlm-cover {
-  background-image: url('../assets/img/sandra-ko-and-mario.jpg');
+ background-image: url("https://learn-verified.s3.amazonaws.com/sandra-ko-and-mario.jpg");
 }
 
 #jake-brady-cover {
-  background-image: url("../assets/img/jake-brady-cover.JPG");
+  background-image: url("https://learn-verified.s3.amazonaws.com/jake-brady-cover.JPG")
 }
 
 #jake-brady-card {
-  background-image: url("../assets/img/jake-brady.jpg")
+ background-image: url("https://learn-verified.s3.amazonaws.com/jake-brady.jpg");
 }
 
 #alyssa-hertig-cover {
-  background-image: url("../assets/img/alyssa-hertig-cover.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/alyssa-hertig-cover.jpg");
 }
 
 #alyssa-hertig-card {
-  background-image: url("../assets/img/alyssa-hertig.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/alyssa-hertig.jpg");
 }
 
 #lisa-marie-cover {
-  background-image: url("../assets/img/lisa-marie-cover.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/lisa-marie-cover.jpg");
 }
 
 #lisa-marie-card {
-  background-image: url("../assets/img/lisa-marie.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/lisa-marie.jpg");
 }
 
 #tucker-bohman-cover {
-  background-image: url("../assets/img/tucker-bohman-cover.png");
+ background-image: url("https://learn-verified.s3.amazonaws.com/tucker-bohman-cover.png");
 }
 
 #tucker-bohman-card {
-  background-image: url("../assets/img/tucker-bohman.png");
+ background-image: url("https://learn-verified.s3.amazonaws.com/tucker-bohman.png");
 }
 
 #alvin-lu-cover{
-  background-image: url("../assets/img/alvin-lu-cover.jpeg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/alvin-lu-cover.jpeg");
 }
 
 #alvin-lu-card{
-  background-image: url("../assets/img/alvin-lu.jpeg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/alvin-lu.jpeg");
 }
 
 /* selector image links for david-kim */
 #david-kim {
-  background-image: url("../assets/img/david-kim.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/david-kim.jpg");
 }
 #david-kim-cover {
-  background-image: url("../assets/img/david-kim-cover.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/david-kim-cover.jpg");
 }
 
 #morgan-vanyperen-card {
-  background-image: url("../assets/img/morgan-vanyperen.png");
+ background-image: url("https://learn-verified.s3.amazonaws.com/morgan-vanyperen.png");
 }
 
 #morgan-vanyperen-cover {
-  background-image: url("../assets/img/morgan-vanyperen-cover.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/morgan-vanyperen-cover.jpg");
 }
 
 #scotty-runyan-cover {
-  background-image: url("../assets/img/scotty-runyan-cover.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/scotty-runyan-cover.jpg");
 }
 
 #scotty-runyan-card {
-  background-image: url("../assets/img/scotty-runyan.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/scotty-runyan.jpg");
 }
 
 #karuna-barla-cover {
-  background-image: url("../assets/img/karuna-barla-cover.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/karuna-barla-cover.jpg");
 }
 
 #karuna-barla-card {
-  background-image: url("../assets/img/karuna-barla.jpeg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/karuna-barla.jpeg");
 }
 
 #johnny-ramos-cover {
-  background-image: url("../assets/img/johnny-ramos-cover.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/johnny-ramos-cover.jpg");
 }
 
 #johnny-ramos-card {
-  background-image: url("../assets/img/johnny-ramos.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/johnny-ramos.jpg");
 }
 
 #kyle-gray-card {
-    background-image: url("../assets/img/kyle-gray-2.jpeg")
+ background-image: url("https://learn-verified.s3.amazonaws.com/kyle-gray-2.jpeg");
 }
 
 #kyle-gray-cover {
-    background-image: url("../assets/img/kyle-background.jpg")
+ background-image: url("https://learn-verified.s3.amazonaws.com/kyle-background.jpg");
 }
 
 #pj-wickwire-card {
-  background-image: url("../assets/img/pj-wickwire.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/pj-wickwire.jpg");
 }
 
 #pj-wickwire-cover {
-  background-image: url("../assets/img/pj-wickwire-cover.jpeg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/pj-wickwire-cover.jpeg");
 }
 
 #mitul-mistry-cover {
-  background-image: url("../assets/img/mitul-mistry-cover.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/mitul-mistry-cover.jpg");
 }
 
 #mitul-mistry-card {
-  background-image: url("../assets/img/mitul-mistry-card.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/mitul-mistry-card.jpg");
 }
 
 #liz-denhup-cover {
-  background-image: url("../assets/img/liz-denhup-cover.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/liz-denhup-cover.jpg");
 }
 
 #liz-denhup-card {
-  background-image: url("../assets/img/liz-denhup.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/liz-denhup.jpg");
 }
 
 #gandhi-anderson-cover {
-  background-image: url("../assets/img/gandhi-anderson-cover.jpg")
+ background-image: url("https://learn-verified.s3.amazonaws.com/gandhi-anderson-cover.jpg");
 }
 
 #gandhi-anderson-card {
-  background-image: url("../assets/img/gandhi-anderson.png")
+ background-image: url("https://learn-verified.s3.amazonaws.com/gandhi-anderson.png");
 }
 
 #grace-lee-cover {
-  background-image: url("../assets/img/grace-lee-cover.jpg")
+ background-image: url("https://learn-verified.s3.amazonaws.com/grace-lee-cover.jpg");
 }
 
 #grace-lee-card {
-  background-image: url("../assets/img/grace-lee.jpg")
+ background-image: url("https://learn-verified.s3.amazonaws.com/grace-lee.jpg");
 }
 
 #caleb-knox-card {
-  background-image: url("../assets/img/caleb-knox.jpeg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/caleb-knox.jpeg");
 }
 
 #caleb-knox-cover {
-  background-image: url("../assets/img/caleb-knox-cover.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/caleb-knox-cover.jpg");
 }
 
 
 #eric-an-cover {
-  background-image: url("../assets/img/eric-an-cover.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/eric-an-cover.jpg");
 }
 
 #eric-an-card {
-  background-image: url("../assets/img/eric-an.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/eric-an.jpg");
 }
 
 #john-anthony-card {
-  background-image: url("../assets/img/john-anthony-profile.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/john-anthony-profile.jpg");
 }
 
 #preet-dha-cover {
-  background-image: url("../assets/img/preet-dha-cover.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/preet-dha-cover.jpg");
 }
 
 #preet-dha-card {
-  background-image: url("../assets/img/preet-dha.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/preet-dha.jpg");
 }
 
 #dan-osment-cover {
-  background-image: url("../assets/img/dan-osment-cover.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/dan-osment-cover.jpg");
 }
 
 #dan-osment-card {
-  background-image: url("../assets/img/dan-osment.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/dan-osment.jpg");
 }
 
 #joe-lachance-cover {
-  background-image: url("../assets/img/joe-lachance-cover.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/joe-lachance-cover.jpg");
 }
 
 #joe-lachance-card {
-  background-image: url("../assets/img/joe-lachance.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/joe-lachance.jpg");
 }
 
 #ryan-johnson-cover {
-  background-image: url("../assets/img/ryan-johnson-cover.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/ryan-johnson-cover.jpg");
 }
 
 #ryan-johnson-card {
-  background-image: url("../assets/img/ryan-johnson.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/ryan-johnson.jpg");
 }
 
 #tracy-tran-cover {
-  background-image: url(../assets/img/tracy-tran-cover.jpg);
+ background-image: url("https://learn-verified.s3.amazonaws.com/tracy-tran-cover.jpg");
 }
 
 #tracy-tran-card {
-  background-image: url(../assets/img/tracy-tran.jpg);
+ background-image: url("https://learn-verified.s3.amazonaws.com/tracy-tran.jpg");
 }
 
 #matt-preiser-cover {
-  background-image: url("../assets/img/matt-preiser-cover.jpeg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/matt-preiser-cover.jpeg");
 }
 
 #matt-preiser-card {
-  background-image: url("../assets/img/matt-preiser.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/matt-preiser.jpg");
 }
 
 #matthew-cianciolo-cover {
-  background-image: url("../assets/img/matthew-cianciolo-cover.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/matthew-cianciolo-cover.jpg");
 }
 
 #matthew-cianciolo-card {
-  background-image: url("../assets/img/matthew-cianciolo.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/matthew-cianciolo.jpg");
 }
 
 #eric-chu-cover {
-  background-image: url("../assets/img/eric-chu-cover.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/eric-chu-cover.jpg");
 }
 
 #eric-chu-card {
-  background-image: url("../assets/img/eric-chu.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/eric-chu.jpg");
 }
 
 #chris-bruen-cover {
-  background-image: url("../assets/img/chris-bruen-cover.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/chris-bruen-cover.jpg");
 }
 
 #chris-bruen-card {
-  background-image: url("../assets/img/chris-bruen.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/chris-bruen.jpg");
 }
 
 #corey-morris-cover {
-  background-image: url("../assets/img/corey-morris-cover.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/corey-morris-cover.jpg");
 }
 
 #corey-morris-card {
-  background-image: url("../assets/img/corey-morris.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/corey-morris.jpg");
 }
 
 #elias-kirsch-card {
-  background-image: url("../assets/img/elias-kirsch.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/elias-kirsch.jpg");
 }
 
 #elias-kirsch-cover {
-  background-image: url("../assets/img/elias-kirsch-cover.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/elias-kirsch-cover.jpg");
 }
 
 #heber-sandoval-cover {
-  background-image: url("../assets/img/heber-sandoval-cover.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/heber-sandoval-cover.jpg");
 }
 
 #heber-sandoval-card {
-  background-image: url("../assets/img/heber-sandoval.jpeg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/heber-sandoval.jpeg");
 }
 
 #adam-fraser-card {
-  background-image: url("../assets/img/adam-fraser.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/adam-fraser.jpg");
 }
 
 #adam-fraser-cover {
-  background-image: url("../assets/img/adam-fraser-cover.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/adam-fraser-cover.jpg");
 }
 
 #douglas-lawrence-cover {
-  background-image: url("../assets/img/douglas-lawrence-cover.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/douglas-lawrence-cover.jpg");
 }
 
 #douglas-lawrence-card {
-  background-image: url("../assets/img/douglas-lawrence.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/douglas-lawrence.jpg");
 }
 
 #ross-cover {
-  background-image: url("../assets/img/ross-cover.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/ross-cover.jpg");
 }
 
 #ross-card {
-  background-image: url("../assets/img/ross-lawson.png");
+ background-image: url("https://learn-verified.s3.amazonaws.com/ross-lawson.png");
 }
 
 #ziv-cover {
-  background-image: url("../assets/img/ziv-cover.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/ziv-cover.jpg");
 }
 
 #ziv_profile {
-  background-image: url("../assets/img/ziv_profile.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/ziv_profile.jpg");
 }
 
 #colton-staab-cover {
-  background-image: url("../assets/img/colton-staab-cover.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/colton-staab-cover.jpg");
 }
 
 #colton-staab-card {
-  background-image: url("../assets/img/colton-staab.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/colton-staab.jpg");
 }
 
 #chen-yang-cover {
-  background-image: url("../assets/img/chen-yang-cover.jpeg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/chen-yang-cover.jpeg");
 }
 
 #chen-yang-card {
-  background-image: url("../assets/img/chen-yang.png");
+ background-image: url("https://learn-verified.s3.amazonaws.com/chen-yang.png");
 }
 
 #eric-baker-cover {
-  background-image: url("../assets/img/eric-baker-cover.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/eric-baker-cover.jpg");
 }
 
 #eric-baker-card {
-  background-image: url("../assets/img/eric-baker.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/eric-baker.jpg");
 }
 
 #michael-simon-cover {
-  background-image: url("../assets/img/michael-simon-cover.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/michael-simon-cover.jpg");
 }
 
 #michael-simon-card {
-  background-image: url("../assets/img/michael-simon.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/michael-simon.jpg");
 }
 
 #tra-to-card {
-  background-image: url("../assets/img/tra-to.png");
+ background-image: url("https://learn-verified.s3.amazonaws.com/tra-to.png");
 }
 
 #tra-to-cover {
-  background-image: url("../assets/img/tra-to-cover.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/tra-to-cover.jpg");
 }
 
 #kris-henderson-cover {
-  background-image: url("../assets/img/kris-henderson-cover.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/kris-henderson-cover.jpg");
 }
 
 #kris-henderson-card {
-  background-image: url("../assets/img/kris-henderson.jpeg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/kris-henderson.jpeg");
 }
 
 #james-ku-card {
-  background-image: url("../assets/img/james-ku-cover.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/james-ku-cover.jpg");
 }
 
 #evan-ng-cover {
-  background-image: url("../assets/img/evan-ng-cover.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/evan-ng-cover.jpg");
 }
 
 #evan-ng-card {
-  background-image: url("../assets/img/evan-ng.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/evan-ng.jpg");
 }
 
 #edward-an-cover {
-  background-image: url("../assets/img/edward-an-cover.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/edward-an-cover.jpg");
 }
 
 #edward-an-card {
-  background-image: url("../assets/img/edward-an.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/edward-an.jpg");
 }
 
 #jenny-yamada-card {
-  background-image: url("../assets/img/jenny-yamada.jpeg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/jenny-yamada.jpeg");
 }
 
 #jenny-yamada-cover {
-  background-image: url("../assets/img/jenny-yamada-cover.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/jenny-yamada-cover.jpg");
 }
 
 #angel-olea-cover {
-  background-image: url("../assets/img/angel-olea-cover.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/angel-olea-cover.jpg");
 }
 
 #angel-olea {
-  background-image: url("../assets/img/angel-olea.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/angel-olea.jpg");
 }
 
 #puna-earl-cover {
-  background-image: url("../assets/img/puna-earl-cover.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/puna-earl-cover.jpg");
 }
 
 #puna-earl-card {
-  background-image: url("../assets/img/puna-earl.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/puna-earl.jpg");
 }
 
 #kristian-kanya-cover {
-  background-image: url("../assets/img/kristian-kanya-cover.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/kristian-kanya-cover.jpg");
 }
 
 #kristian-kanya-card {
-  background-image: url("../assets/img/kristian-kanya.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/kristian-kanya.jpg");
 }
 
 #james-gorman-cover {
-  background-image: url("../assets/img/james-gorman-cover.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/james-gorman-cover.jpg");
 }
 
 #james-gorman-card {
-  background-image: url("../assets/img/james-gorman.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/james-gorman.jpg");
 }
 
 #julie-heyd-cover {
-  background-image: url("../assets/img/julie-heyd-cover.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/julie-heyd-cover.jpg");
 }
 
 #julie-heyd-card {
-  background-image: url("../assets/img/julie-heyd.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/julie-heyd.jpg");
 }
 
 #tony-st-nikolas-cover {
-  background-image: url("../assets/img/tony-st-nikolas-cover.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/tony-st-nikolas-cover.jpg");
 }
 
 #tony-st-nikolas-card {
-  background-image: url("../assets/img/tony-st-nikolas.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/tony-st-nikolas.jpg");
 }
 
 #john-depippo-cover {
-  background-image: url("../assets/img/john-depippo-cover.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/john-depippo-cover.jpg");
 }
 
 #john-depippo-card {
-  background-image: url("../assets/img/john-depippo.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/john-depippo.jpg");
 }
 
 #lindsey-wells-card {
-  background-image: url("../assets/img/lindsey-wells.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/lindsey-wells.jpg");
 }
 
 #lindsey-wells-cover {
-  background-image: url("../assets/img/lindsey-wells-cover.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/lindsey-wells-cover.jpg");
 }
 
 #minh-nguyen-cover {
-  background-image: url("../assets/img/minh-nguyen-cover.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/minh-nguyen-cover.jpg");
 }
 
 #minh-nguyen-card {
-  background-image: url("../assets/img/minh-nguyen.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/minh-nguyen.jpg");
 }
 
 #laura-correa-cover {
-  background-image: url("../assets/img/laura-correa-cover.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/laura-correa-cover.jpg");
 }
 
 #laura-correa-card {
-  background-image: url("../assets/img/laura-correa.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/laura-correa.jpg");
 }
 
 #brigan-enser-card {
-  background-image: url("../assets/img/brigan-enser-card.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/brigan-enser-card.jpg");
 }
 
 #brigan-enser-cover {
-  background-image: url("../assets/img/brigan-enser.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/brigan-enser.jpg");
 }
 
 #jennifer-lavoie-cover {
-  background-image: url("../assets/img/jennifer-lavoie-cover.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/jennifer-lavoie-cover.jpg");
 }
 
 #jennifer-lavoie-card {
-  background-image: url("../assets/img/jennifer-lavoie.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/jennifer-lavoie.jpg");
 }
 
 #ann-lee-cover {
-  background-image: url("../assets/img/ann-lee-cover.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/ann-lee-cover.jpg");
 }
 
 #ann-lee-card {
-  background-image: url("../assets/img/ann-lee.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/ann-lee.jpg");
 }
 
 #zach-newburgh-cover {
-  background-image: url("../assets/img/zach-newburgh-cover.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/zach-newburgh-cover.jpg");
 }
 
 #zach-newburgh-card {
-  background-image: url("../assets/img/zach-newburgh.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/zach-newburgh.jpg");
 }
 
 #kevin-mccormack-cover {
-  background-image: url("../assets/img/kevin-mccormack-cover.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/kevin-mccormack-cover.jpg");
 }
 
 #kevin-mccormack-card {
-  background-image: url("../assets/img/kevin-mccormack.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/kevin-mccormack.jpg");
 }
 
 #sean-liu-card {
-  background-image: url("../assets/img/sean-liu.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/sean-liu.jpg");
 }
 
 #sean-liu-cover {
-  background-image: url("../assets/img/sean-liu-cover.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/sean-liu-cover.jpg");
 }
 
 #sean-mulligan-cover {
-  background-image: url("../assets/img/sean-mulligan-cover.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/sean-mulligan-cover.jpg");
 }
 
 #sean-mulligan-card {
-  background-image: url("../assets/img/sean-mulligan.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/sean-mulligan.jpg");
 }
 
 #alex-barron-card {
-  background-image: url("../assets/img/alex-barron.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/alex-barron.jpg");
 }
 
 #alex-barron-cover {
-  background-image: url("../assets/img/alex-barron-cover.JPG");
 }
 
 #mark-stein-card {
-  background-image: url("../assets/img/mark-stein.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/mark-stein.jpg");
 }
 
 #mark-stein-cover {
-  background-image: url("../assets/img/mark-stein-cover.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/mark-stein-cover.jpg");
 }
 
 #kirsten-ofarrell-cover {
-  background-image: url("../assets/img/kirsten-ofarrell-cover.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/kirsten-ofarrell-cover.jpg");
 }
 
 #kirsten-ofarrell-card {
-  background-image: url("../assets/img/kirsten-ofarrell.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/kirsten-ofarrell.jpg");
 }
 #michael-perritano-cover {
-  background-image: url("../assets/img/michael-perritano-cover.jpg");
+ background-image: url("https://learn-verified.s3.amazonaws.com/michael-perritano-cover.jpg");
 }
 
 #michael-perritano-card {
-  background-image: url("../assets/img/michael-perritano.jpg");
+  background-image: url("https://learn-verified.s3.amazonaws.com/michael-perritano.JPG")
 }
 
 .view-profile-div {

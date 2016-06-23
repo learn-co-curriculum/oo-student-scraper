@@ -24,7 +24,7 @@ You will deploy this website locally by running it on a server on your computer.
 
 **Important if you're using the Learn IDE:** If you're using the Learn IDE and you cannot open up another terminal window (one for the jekyll server and one for the `rspec` command) you can just run the server as a background job (`jekyll serve --detach`). For more information on background jobs in bash, take a look at this readme: https://github.com/learn-co-curriculum/bash-background-jobs/
 
-* In the terminal, run `jekyll serve`. You'll see something like this:
+* In the terminal, run `jekyll serve`. **(Command must be run from ../fixtures/student-site)** You'll see something like this:
 
 ```bash
 Configuration file: /Users/sophiedebenedetto/Desktop/Dev/oo-student-scraper/fixtures/student-site/_config.yml
@@ -128,3 +128,5 @@ We've provided you with all of the code in the `CommandLineInterface` class. Tak
 Now run the executable file with `ruby bin/run`. You should see all of the students you scraped and instantiated `puts`-ed out to the terminal. Great job!
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/oo-student-scraper' title='Object Oriented Student Scraper'>Object Oriented Student Scraper</a> on Learn.co and start learning to code for free.</p>
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/oo-student-scraper'>Student Scraper</a> on Learn.co and start learning to code for free.</p>

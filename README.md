@@ -20,30 +20,9 @@ For this project, we'll be scraping data from your student site at [students.lea
 
 Don't worry! We've very cleverly solved this problem for the purposes of this project. We've stored a copy of your student site *inside a subdirectory in this project*. The copy is being maintained only for the purposes of this project, so we don't have to worry about things like the styling changing or the code breaking and effecting our scraper code.
 
-You will deploy this website locally by running it on a server on your computer. Here's how:
+To locally view the stored web page, simply type the following into your terminal: `open fixtures/student-site/index.html`
 
-**Important if you're using the Learn IDE:** If you're using the Learn IDE and you cannot open up another terminal window (one for the jekyll server and one for the `rspec` command) you can just run the server as a background job (`jekyll serve --detach`). For more information on background jobs in bash, take a look at this readme: https://github.com/learn-co-curriculum/bash-background-jobs/
-
-* In the terminal, run `jekyll serve`. You'll see something like this:
-
-```bash
-Configuration file: /Users/sophiedebenedetto/Desktop/Dev/oo-student-scraper/fixtures/student-site/_config.yml
-            Source: /Users/sophiedebenedetto/Desktop/Dev/oo-student-scraper/fixtures/student-site
-       Destination: /Users/sophiedebenedetto/Desktop/Dev/oo-student-scraper/fixtures/student-site/_site
- Incremental build: disabled. Enable with --incremental
-      Generating...
-                    done in 2.062 seconds.
- Auto-regeneration: enabled for '/Users/sophiedebenedetto/Desktop/Dev/oo-student-scraper/fixtures/student-site'
-Configuration file: /Users/sophiedebenedetto/Desktop/Dev/oo-student-scraper/fixtures/student-site/_config.yml
-    Server address: http://127.0.0.1:4000/
-  Server running... press ctrl-c to stop.
-```
-
-Most of that isn't important. We do want to pay attention to the second to last line, however. `Server address: http://127.0.0.1:4000/`. This tells us what port on our local server we can view the website at. Open up your browser and paste in `http://127.0.0.1:4000/` and you should see your student site! (note: `http://127.0.0.1` is often referred to as `localhost` and many browsers and other systems [use this term](https://en.wikipedia.org/wiki/Localhost). They are effectively interchangable, i.e., you could just as easily paste `localhost:4000` into a browser and it would be the same.)
-
-**Important:** Make sure you are running the site via the `jekyll serve` when you run `rspec`. The tests are using the code you will write that sends a web request and scrapes a site. The web request that is getting sent is to `http://127.0.0.1:4000/`, the host and port that Jekyll will run the site on when you execute `jekyll serve`. So, if your connection to the server on port 4000 isn't running, the test suite can't execute your code.  You will need to open a second tab in your command line, in order to run `rspec` while Jekyll is also running.
-
-**Important if you're using the Learn IDE:** The output at `Server address:` should look different. It won't be at `http://127.0.0.1`, and the port won't be `4000`. Follow the address `jekyll serve` gives you, and all should be well.
+**Important if you're using the Learn IDE:** If you're using the Learn IDE you'll have to run a server to view the site. You can do this by typing `httpserver &` to run the server in the background (make sure you know how to switch this job back to the foreground so you can close the server later with `ctrl + c`). Enter the IP address this command outputs into your web browser.  Then navigate to the fixtures folder, and then the student-site folder and the page should come up! For more information on background jobs in bash, take a look at this readme: https://github.com/learn-co-curriculum/bash-background-jobs/
 
 ## Instructions
 
@@ -62,11 +41,11 @@ Here's a look at the desired behavior:
 ```ruby
 Scraper.scrape_index_page(index_url)
 # => [
-        {:name => "Abby Smith", :location => "Brooklyn, NY", :profile_url => "http://127.0.0.1:4000/students/abby-smith.html"},
-        {:name => "Joe Jones", :location => "Paris, France", :profile_url => "http://127.0.0.1:4000/students/joe-jonas.html"},
-        {:name => "Carlos Rodriguez", :location => "New York, NY", :profile_url => "http://127.0.0.1:4000/students/carlos-rodriguez.html"},
-        {:name => "Lorenzo Oro", :location => "Los Angeles, CA", :profile_url => "http://127.0.0.1:4000/students/lorenzo-oro.html"},
-        {:name => "Marisa Royer", :location => "Tampa, FL", :profile_url => "http://127.0.0.1:4000/students/marisa-royer.html"}
+        {:name => "Abby Smith", :location => "Brooklyn, NY", :profile_url => "./fixtures/student-site/students/abby-smith.html"},
+        {:name => "Joe Jones", :location => "Paris, France", :profile_url => "./fixtures/student-site/students/joe-jonas.html"},
+        {:name => "Carlos Rodriguez", :location => "New York, NY", :profile_url => "./fixtures/student-site/students/carlos-rodriguez.html"},
+        {:name => "Lorenzo Oro", :location => "Los Angeles, CA", :profile_url => "./fixtures/student-site/students/lorenzo-oro.html"},
+        {:name => "Marisa Royer", :location => "Tampa, FL", :profile_url => "./fixtures/student-site/students/marisa-royer.html"}
       ]
 ```
 
@@ -123,7 +102,7 @@ This class method should return the contents of the `@@all` array.
 
 Now that you have all your tests passing, you can run our executable file, which relies on our `CommandLineInterface` class.
 
-We've provided you with all of the code in the `CommandLineInterface` class. Take a few minutes to read through this class and gain a strong understanding of how it uses the code you wrote in your Scraper and Student classes to make a web request to the site running via Jekyll and scrape the students.
+We've provided you with all of the code in the `CommandLineInterface` class. Take a few minutes to read through this class and gain a strong understanding of how it uses the code you wrote in your Scraper and Student classes to make a request to the local files and scrape the students.
 
 Now run the executable file with `ruby bin/run`. You should see all of the students you scraped and instantiated `puts`-ed out to the terminal. Great job!
 

@@ -41,11 +41,11 @@ Here's a look at the desired behavior:
 ```ruby
 Scraper.scrape_index_page(index_url)
 # => [
-        {:name => "Abby Smith", :location => "Brooklyn, NY", :profile_url => "http://127.0.0.1:4000/students/abby-smith.html"},
-        {:name => "Joe Jones", :location => "Paris, France", :profile_url => "http://127.0.0.1:4000/students/joe-jonas.html"},
-        {:name => "Carlos Rodriguez", :location => "New York, NY", :profile_url => "http://127.0.0.1:4000/students/carlos-rodriguez.html"},
-        {:name => "Lorenzo Oro", :location => "Los Angeles, CA", :profile_url => "http://127.0.0.1:4000/students/lorenzo-oro.html"},
-        {:name => "Marisa Royer", :location => "Tampa, FL", :profile_url => "http://127.0.0.1:4000/students/marisa-royer.html"}
+        {:name => "Abby Smith", :location => "Brooklyn, NY", :profile_url => "./fixtures/student-site/students/abby-smith.html"},
+        {:name => "Joe Jones", :location => "Paris, France", :profile_url => "./fixtures/student-site/students/joe-jonas.html"},
+        {:name => "Carlos Rodriguez", :location => "New York, NY", :profile_url => "./fixtures/student-site/students/carlos-rodriguez.html"},
+        {:name => "Lorenzo Oro", :location => "Los Angeles, CA", :profile_url => "./fixtures/student-site/students/lorenzo-oro.html"},
+        {:name => "Marisa Royer", :location => "Tampa, FL", :profile_url => "./fixtures/student-site/students/marisa-royer.html"}
       ]
 ```
 
@@ -102,7 +102,7 @@ This class method should return the contents of the `@@all` array.
 
 Now that you have all your tests passing, you can run our executable file, which relies on our `CommandLineInterface` class.
 
-We've provided you with all of the code in the `CommandLineInterface` class. Take a few minutes to read through this class and gain a strong understanding of how it uses the code you wrote in your Scraper and Student classes to make a web request to the site running via Jekyll and scrape the students.
+We've provided you with all of the code in the `CommandLineInterface` class. Take a few minutes to read through this class and gain a strong understanding of how it uses the code you wrote in your Scraper and Student classes to make a request to the local files and scrape the students.
 
 Now run the executable file with `ruby bin/run`. You should see all of the students you scraped and instantiated `puts`-ed out to the terminal. Great job!
 

@@ -1,2 +1,1 @@
-require 'vcr'
 require 'nokogiri'

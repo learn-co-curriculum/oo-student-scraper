@@ -40,7 +40,8 @@ Here's a look at the desired behavior:
 
 ```ruby
 Scraper.scrape_index_page(index_url)
-# => [
+# => 
+[
         {:name => "Abby Smith", :location => "Brooklyn, NY", :profile_url => "./fixtures/student-site/students/abby-smith.html"},
         {:name => "Joe Jones", :location => "Paris, France", :profile_url => "./fixtures/student-site/students/joe-jonas.html"},
         {:name => "Carlos Rodriguez", :location => "New York, NY", :profile_url => "./fixtures/student-site/students/carlos-rodriguez.html"},
@@ -57,7 +58,8 @@ This is a class method that should take in an argument of a student's profile UR
 
 ```ruby
 Scraper.scrape_profile_page(profile_url)
-# => {:twitter=>"http://twitter.com/flatironschool",
+# => 
+{:twitter=>"http://twitter.com/flatironschool",
       :linkedin=>"https://www.linkedin.com/in/flatironschool",
       :github=>"https://github.com/learn-co,
       :blog=>"http://flatironschool.com",
@@ -107,3 +109,5 @@ We've provided you with all of the code in the `CommandLineInterface` class. Tak
 Now run the executable file with `ruby bin/run`. You should see all of the students you scraped and instantiated `puts`-ed out to the terminal. Great job!
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/oo-student-scraper' title='Object Oriented Student Scraper'>Object Oriented Student Scraper</a> on Learn.co and start learning to code for free.</p>
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/oo-student-scraper'>Student Scraper</a> on Learn.co and start learning to code for free.</p>

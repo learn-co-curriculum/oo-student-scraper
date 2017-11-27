@@ -16,9 +16,9 @@ We've also given you an executable file in `bin/run` that you can execute once y
 
 ## Before You Begin
 
-For this project, we'll be scraping data from your student site at [students.learn.co](http://students.learn.co/). Sort of. We can't really give you a project with a full test suite and base those tests on a real live website on the real live internet. Why? Because websites change! They get new styling, new information, or they break because someone did something wrong. It happens! So, any tests we write would be based on the website at a given point in time. The code you write to pass those tests would assume that you are scraping a website that may have since changed. Your scraper would pass tests but fail to actually scrape the web page if you tried to run your code by sending a real web request to the real website. That would be terrible! Then you couldn't see your code in action or view the page you were writing code to scrape. Just awful.
+For this project, we'll be scraping data from your student site at [students.learn.co](http://students.learn.co/). Sort of. We can't really give you a project with a full test suite and base those tests on a real live website on the real live internet. Why? Because websites change! They get new styling or new information, or they break because someone did something wrong. It happens! So, any tests we write would be based on the website at a given point in time. The code you write to pass those tests would assume that you are scraping a website that may have since changed. Your scraper would pass tests but fail to actually scrape the web page if you tried to run your code by sending a real web request to the real website. That would be terrible! Then you couldn't see your code in action or view the page you were writing code to scrape. Just awful.
 
-Don't worry! We've very cleverly solved this problem for the purposes of this project. We've stored a copy of your student site *inside a subdirectory in this project*. The copy is being maintained only for the purposes of this project, so we don't have to worry about things like the styling changing or the code breaking and effecting our scraper code.
+Don't worry! We've very cleverly solved this problem for the purposes of this project. We've stored a copy of your student site *inside a subdirectory in this project*. The copy is being maintained only for the purposes of this project, so we don't have to worry about things like the styling changing or the code breaking and affecting our scraper code.
 
 To locally view the stored web page, simply type the following into your terminal: `open fixtures/student-site/index.html`
 
@@ -34,7 +34,7 @@ Let's start with the `Scraper` class in `lib/scraper.rb`. In this class you are 
 
 #### The `#scrape_index_page` Method
 
-This is a class method that should take in an argument of the URL of the index page. It should use nokogiri and Open-URI to access that page. The return value of this method should be an array of hashes in which each hash represents a single student. The keys of the individual student hashes should be `:name`, `:location` and `:profile_url`.
+This is a class method that should take in an argument of the URL of the index page, for the purposes of our test the URL will be "./fixtures/student-site/index.html". It should use nokogiri and Open-URI to access that page. The return value of this method should be an array of hashes in which each hash represents a single student. The keys of the individual student hashes should be `:name`, `:location` and `:profile_url`.
 
 Here's a look at the desired behavior:
 
@@ -107,3 +107,5 @@ We've provided you with all of the code in the `CommandLineInterface` class. Tak
 Now run the executable file with `ruby bin/run`. You should see all of the students you scraped and instantiated `puts`-ed out to the terminal. Great job!
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/oo-student-scraper' title='Object Oriented Student Scraper'>Object Oriented Student Scraper</a> on Learn.co and start learning to code for free.</p>
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/oo-student-scraper'>Student Scraper</a> on Learn.co and start learning to code for free.</p>

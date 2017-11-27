@@ -3,9 +3,9 @@ require "spec_helper"
 describe "Scraper" do
 
   let!(:student_index_array) {[{:name=>"Joe Burgess", :location=>"New York, NY", :profile_url=>"students/joe-burgess.html"},
-                             {:name=>"Mathieu Balez", :location=>"New York, NY", :profile_url=>"students/mathieu-balez.html"},
-                             {:name=>"Diane Vu", :location=>"New York, NY", :profile_url=>"students/diane-vu.html"}]}
-                             
+                               {:name=>"Mathieu Balez", :location=>"New York, NY", :profile_url=>"students/mathieu-balez.html"},
+                               {:name=>"Diane Vu", :location=>"New York, NY", :profile_url=>"students/diane-vu.html"}]}
+
   let!(:student_joe_hash) {{:twitter=>"https://twitter.com/jmburges",
                             :linkedin=>"https://www.linkedin.com/in/jmburges",
                             :github=>"https://github.com/jmburges",
@@ -22,7 +22,7 @@ describe "Scraper" do
   "I'm a southern California native seeking to find work as a full stack web developer. I enjoying tinkering with computers and learning new things!"}}
 
   describe "#scrape_index_page" do
-    it "is a class method that scrapes the student index page and a returns an array of hashes in which each hash represents one student" do
+    it "is a class method that scrapes the student index page ('./fixtures/student-site/index.html') and a returns an array of hashes in which each hash represents one student" do
       index_url = "./fixtures/student-site/index.html"
       scraped_students = Scraper.scrape_index_page(index_url)
       expect(scraped_students).to be_a(Array)

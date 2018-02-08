@@ -34,7 +34,7 @@ Let's start with the `Scraper` class in `lib/scraper.rb`. In this class you are 
 
 #### The `#scrape_index_page` Method
 
-This is a class method that should take in an argument of the URL of the index page, for the purposes of our test the URL will be "./fixtures/student-site/index.html". It should use nokogiri and Open-URI to access that page. The return value of this method should be an array of hashes in which each hash represents a single student. The keys of the individual student hashes should be `:name`, `:location` and `:profile_url`.
+This is a class method that should take in an argument of the URL of the index page, for the purposes of our test the URL will be "./fixtures/student-site/index.html". It should use Nokogiri and Open-URI to access that page. The return value of this method should be an array of hashes in which each hash represents a single student. The keys of the individual student hashes should be `:name`, `:location` and `:profile_url`.
 
 Here's a look at the desired behavior:
 
@@ -53,7 +53,7 @@ Scraper.scrape_index_page(index_url)
 
 #### The `#scrape_profile_page` Method
 
-This is a class method that should take in an argument of a student's profile URL. It should use nokogiri and Open-URI to access that page. The return value of this method should be a hash in which the key/value pairs describe an individual student. Some students don't have a twitter or some other social link. Be sure to be able to handle that. Here is what the hash should look like:
+This is a class method that should take in an argument of a student's profile URL. It should use Nokogiri and Open-URI to access that page. The return value of this method should be a hash in which the key/value pairs describe an individual student. Some students don't have a twitter or some other social link. Be sure to be able to handle that. Here is what the hash should look like:
 
 ```ruby
 Scraper.scrape_profile_page(profile_url)

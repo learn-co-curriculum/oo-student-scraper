@@ -3,4 +3,4 @@
 require_relative "../lib/command_line_interface.rb"
 
 
-CommandLineInteface.new.run
+CommandLineInterface.new.run

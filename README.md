@@ -84,7 +84,7 @@ This class method should take in an array of hashes. In fact, we will call `Stud
 
 ##### The `#initialize` Method
 
-The `#initialize` method should take in an argument of a hash and use metaprogramming to assign the newly created student attributes and values in accordance with the key/value pairs of the hash. Use the `#send` method to acheive this. This method should also add the newly created student to the `Student` class' `@@all` array of all students. You'll need to create this class variable and set it equal to an empty array at the top of your class. Push `self` into the array at the end of the `#initialize` method.
+The `#initialize` method should take in an argument of a hash and use metaprogramming to assign the newly created student attributes and values in accordance with the key/value pairs of the hash. Use the `#send` method to achieve this. This method should also add the newly created student to the `Student` class' `@@all` array of all students. You'll need to create this class variable and set it equal to an empty array at the top of your class. Push `self` into the array at the end of the `#initialize` method.
 
 #### The `#add_student_attributes` Method
 

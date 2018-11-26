@@ -12,6 +12,7 @@ class Student
   end
 
   def self.create_from_collection(students_array)
+    students_array = Scraper.scrape_index_page("./fixtures/student-site/index.html")
     students_array.each do |student_hash|
       Student.new(student_hash)
     end

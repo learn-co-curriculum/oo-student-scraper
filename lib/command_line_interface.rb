@@ -4,7 +4,7 @@ require 'nokogiri'
 require 'colorize'
 
 class CommandLineInterface
-  BASE_PATH = "https://learn-co-curriculum.github.io/student-scraper-test-page//"
+  BASE_PATH = "https://learn-co-curriculum.github.io/student-scraper-test-page/"
 
   def run
     make_students

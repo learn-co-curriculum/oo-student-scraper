@@ -39,7 +39,7 @@ describe "Student" do
     it "uses the Scraper class to create new students with the correct name and location." do 
       Student.class_variable_set(:@@all, [])
       Student.create_from_collection(student_index_array)
-      expect( Student.class_variable_get(:@@all).map{ |student_hash| student_hash.name } ).to include("Alex Barron")
+      expect(Student.class_variable_get(:@@all).first.name).to eq("Alex Patriquin")
     end
   end
 

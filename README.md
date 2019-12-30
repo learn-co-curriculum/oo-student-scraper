@@ -209,3 +209,4 @@ Now run the executable file with `ruby bin/run`. You should see all of the
 students you scraped and instantiated `puts`-ed out to the terminal. Great job!
 
 <p class='util--hide'>View <a href='https://learn.co/lessons/oo-student-scraper'>Student Scraper</a> on Learn.co and start learning to code for free.</p>
+

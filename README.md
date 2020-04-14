@@ -20,8 +20,8 @@ We've given you a third class, `CommandLineInterface` that is responsible for
 generating students using both the `Student` and `Scraper` classes. As you go
 through this lab, take some time to read through the code in the
 `CommandLineInterface` class. Try to understand how it works and how it uses the
-code in our other classes to actually create, add attributes, and display
-students to the user via the command-line interface.
+code in our other classes to create students, add attributes to them, and display
+them to the user via the command-line interface.
 
 We've also given you an executable file in `bin/run` that you can execute once
 you get your tests passing to see your code in action!
@@ -46,7 +46,7 @@ project. We've created a mock-up student site, [available here as a GitHub Page]
 [available here as a GitHub Page]: https://learn-co-curriculum.github.io/student-scraper-test-page/
 
 This copy is being maintained only for the purposes of this project, so we don't
-have to worry about things like the styling changing or the code-breaking and
+have to worry about things like the styling changing or the code breaking and
 affecting our scraper code.
 
 ## Instructions
@@ -74,7 +74,7 @@ student's profile page to get further information about that student.
 #### The `.scrape_index_page` Method
 
 This is a class method that should take in an argument of the URL of the index
-page, for the purposes of our test the URL will be
+page. For the purposes of our test the URL will be
 `https://learn-co-curriculum.github.io/student-scraper-test-page/index.html`.
 This method should use Nokogiri and Open-URI to access that page. The return
 value of this method should be an array of hashes in which each hash represents

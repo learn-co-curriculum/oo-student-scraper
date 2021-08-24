@@ -20,8 +20,8 @@ We've given you a third class, `CommandLineInterface` that is responsible for
 generating students using both the `Student` and `Scraper` classes. As you go
 through this lab, take some time to read through the code in the
 `CommandLineInterface` class. Try to understand how it works and how it uses the
-code in our other classes to create students, add attributes to them, and display
-them to the user via the command-line interface.
+code in our other classes to create students, add attributes to them, and
+display them to the user via the command-line interface.
 
 We've also given you an executable file in `bin/run` that you can execute once
 you get your tests passing to see your code in action!
@@ -41,9 +41,10 @@ be terrible! Then you couldn't see your code in action or view the page you were
 writing code to scrape. Just awful.
 
 Don't worry! We've very cleverly solved this problem for the purposes of this
-project. We've created a mock-up student site, [available here as a GitHub Page][]
+project. We've created a mock-up student site,
+[available here as a GitHub Page][]
 
-[available here as a GitHub Page]: https://learn-co-curriculum.github.io/student-scraper-test-page/
+[available here as a github page]: https://learn-co-curriculum.github.io/student-scraper-test-page/
 
 This copy is being maintained only for the purposes of this project, so we don't
 have to worry about things like the styling changing or the code breaking and
@@ -69,7 +70,7 @@ student's profile page to get further information about that student.
 > additional information
 
 [website]: https://learn-co-curriculum.github.io/student-scraper-test-page/
-[Nokogiri's reference materials]: https://nokogiri.org/tutorials/searching_a_xml_html_document.html
+[nokogiri's reference materials]: https://nokogiri.org/tutorials/searching_a_xml_html_document.html
 
 #### The `.scrape_index_page` Method
 
@@ -86,12 +87,12 @@ Here's a look at the desired behavior:
 ```ruby
 Scraper.scrape_index_page(index_url)
 # => [
-        {:name => "Abby Smith", :location => "Brooklyn, NY", :profile_url => "students/abby-smith.html"},
-        {:name => "Joe Jones", :location => "Paris, France", :profile_url => "students/joe-jonas.html"},
-        {:name => "Carlos Rodriguez", :location => "New York, NY", :profile_url => "students/carlos-rodriguez.html"},
-        {:name => "Lorenzo Oro", :location => "Los Angeles, CA", :profile_url => "students/lorenzo-oro.html"},
-        {:name => "Marisa Royer", :location => "Tampa, FL", :profile_url => "students/marisa-royer.html"}
-      ]
+#    {:name => "Abby Smith", :location => "Brooklyn, NY", :profile_url => "students/abby-smith.html"},
+#    {:name => "Joe Jones", :location => "Paris, France", :profile_url => "students/joe-jonas.html"},
+#    {:name => "Carlos Rodriguez", :location => "New York, NY", :profile_url => "students/carlos-rodriguez.html"},
+#    {:name => "Lorenzo Oro", :location => "Los Angeles, CA", :profile_url => "students/lorenzo-oro.html"},
+#    {:name => "Marisa Royer", :location => "Tampa, FL", :profile_url => "students/marisa-royer.html"}
+#  ]
 ```
 
 > **Top-Tip:** Remember to use the element inspector in your browser's developer
@@ -153,10 +154,10 @@ or take in the `Scraper` class itself as an argument. Why is this? We want our
 program to be as flexible as possible.
 
 We can imagine any number of applications that use a `Student` model. So we
-don't want our `Student` model to be dependent on *how* it gets information
+don't want our `Student` model to be dependent on _how_ it gets information
 regarding the students it creates. It should simply be ready to take in that
-information, regardless of its source (be it scraping, a .csv file, or a form on
-a website).
+information, regardless of its source (be it scraping, a `.csv` file, or a form
+on a website).
 
 #### The `#create_from_collection(students_array)`
 

@@ -2,6 +2,6 @@
 source "https://rubygems.org"
 
 gem 'pry'
-gem 'nokogiri', '1.11.4'
+gem 'nokogiri', '1.13.9'
 gem 'rspec'
 gem 'colorize'
